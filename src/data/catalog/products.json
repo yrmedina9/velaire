@@ -1,0 +1,1627 @@
+[
+  {
+    "id": "vel-001",
+    "slug": "bouquet-jardin-pastel",
+    "name": "Bouquet Jardín Pastel",
+    "category": "bouquets",
+    "shortDescription": "Rosas, peonías y tulipanes en tonos pastel sobre una maceta dorada.",
+    "description": "Un bouquet especial de flores en vela en tonos pasteles. Aromas suaves, colores delicados y un diseño que ilumina con ternura cualquier espacio. Rosas, peonías y tulipanes en rosa, lila, amarillo y azul, acompañados de flor de nube natural y presentados en una maceta dorada de cerámica.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/bouquet-jardin-pastel-1.webp",
+        "alt": "Bouquet de flores en vela en tonos pastel dentro de una maceta dorada",
+        "width": 1200,
+        "height": 1253
+      }
+    ],
+    "occasions": [
+      "cumpleanos",
+      "aniversario",
+      "decoracion"
+    ],
+    "colors": [
+      "Rosa",
+      "Lila",
+      "Amarillo",
+      "Azul"
+    ],
+    "features": [
+      "Maceta dorada de cerámica",
+      "Flor de nube natural",
+      "Colores personalizables"
+    ],
+    "customizable": true,
+    "featured": true,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DPCXpYTkQJA/",
+    "publishedAt": "2025-09-25"
+  },
+  {
+    "id": "vel-002",
+    "slug": "bouquet-rosa-dulce",
+    "name": "Bouquet Rosa Dulce",
+    "category": "bouquets",
+    "shortDescription": "Rosas y peonías en rosa, coral y rojo con mariposa dorada y tarjeta.",
+    "description": "La belleza de las flores, ahora en velas que enamoran. Un bouquet lleno de color, delicadeza y pequeños detalles que lo hacen único: rosas y peonías en tonos rosa, coral y rojo, mariposa dorada y tarjeta con tu mensaje. Perfecto para regalar amor, celebrar momentos especiales o sorprender a esa persona que tanto quieres.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/bouquet-rosa-dulce-1.webp",
+        "alt": "Bouquet de rosas y peonías en vela en tonos rosa, coral y rojo con mariposa dorada",
+        "width": 1200,
+        "height": 1601
+      }
+    ],
+    "occasions": [
+      "amor-y-amistad",
+      "cumpleanos",
+      "aniversario"
+    ],
+    "colors": [
+      "Rosa",
+      "Coral",
+      "Rojo"
+    ],
+    "features": [
+      "Tarjeta con mensaje personalizado",
+      "Mariposa decorativa dorada",
+      "Base con lazo de satín"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": true,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DehuG12vJEP/",
+    "publishedAt": "2026-10-15"
+  },
+  {
+    "id": "vel-003",
+    "slug": "bouquet-bambuquera",
+    "name": "Bouquet Bambuquera",
+    "category": "bouquets",
+    "shortDescription": "Flores lila y azul coronadas por una bambuquera en vela, orgullo huilense.",
+    "description": "Un detalle que florece y perdura. Bouquet de velas artesanales en tonos lila y azul, coronado por una bambuquera en vela que rinde homenaje a la tradición del Huila. Presentado en base blanca con lazo de satín dorado, es el regalo perfecto para sorprender a tu persona especial.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/bouquet-bambuquera-1.webp",
+        "alt": "Bouquet de flores en vela lila y azul coronado por una bambuquera",
+        "width": 1200,
+        "height": 1599
+      },
+      {
+        "src": "/images/products/bouquet-bambuquera-2.webp",
+        "alt": "Bouquet Bambuquera con lazo dorado sobre mantel tejido",
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "occasions": [
+      "cumpleanos",
+      "dia-de-la-madre",
+      "decoracion"
+    ],
+    "colors": [
+      "Lila",
+      "Azul"
+    ],
+    "features": [
+      "Bambuquera en vela",
+      "Base blanca con lazo dorado",
+      "Personaliza colores y aromas"
+    ],
+    "customizable": true,
+    "featured": true,
+    "isNew": true,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/Ddmk3EuP-0i/",
+    "publishedAt": "2026-09-22"
+  },
+  {
+    "id": "vel-004",
+    "slug": "mini-bouquet-tulipanes-amarillos",
+    "name": "Mini Bouquet Tulipanes Amarillos",
+    "category": "bouquets",
+    "shortDescription": "Tulipanes amarillos en vela para regalar alegría y buenos deseos.",
+    "description": "Elegancia que ilumina. Mini bouquet de tulipanes amarillos en vela, el detalle perfecto para llenar de luz y estilo cualquier espacio. Las flores amarillas son ideales para regalar amor, alegría y buenos deseos, especialmente en septiembre, el mes de las flores amarillas.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/mini-bouquet-tulipanes-amarillos-1.webp",
+        "alt": "Mini bouquet de tulipanes amarillos en vela con mariposa dorada",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/images/products/mini-bouquet-tulipanes-amarillos-2.webp",
+        "alt": "Tulipanes amarillos en vela con flor de nube y empaque kraft",
+        "width": 1200,
+        "height": 1600
+      }
+    ],
+    "occasions": [
+      "amor-y-amistad",
+      "cumpleanos",
+      "flores-amarillas"
+    ],
+    "colors": [
+      "Amarillo"
+    ],
+    "features": [
+      "Formato mini",
+      "Empaque kraft con lazo",
+      "Mariposa decorativa dorada"
+    ],
+    "customizable": true,
+    "featured": true,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DOoIxOFkUyw/",
+    "publishedAt": "2025-09-15"
+  },
+  {
+    "id": "vel-005",
+    "slug": "bouquet-sol-amarillo",
+    "name": "Bouquet Sol Amarillo",
+    "category": "bouquets",
+    "shortDescription": "Rosas y peonías amarillas y naranjas en maceta de cerámica.",
+    "description": "Un ramo de velas en forma de flores hecho para iluminar, decorar y recordar lo especial que es cada mujer. Rosas, peonías y tulipanes en amarillo y naranja que transmiten alegría y esperanza. Un regalo diferente, delicado y lleno de luz.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/bouquet-sol-amarillo-1.webp",
+        "alt": "Bouquet de flores en vela amarillas en maceta de cerámica gris",
+        "width": 1200,
+        "height": 1476
+      },
+      {
+        "src": "/images/products/bouquet-sol-amarillo-2.webp",
+        "alt": "Ramo de flores en vela amarillas y naranjas sostenido en la mano",
+        "width": 1200,
+        "height": 1200
+      }
+    ],
+    "occasions": [
+      "dia-de-la-mujer",
+      "flores-amarillas",
+      "cumpleanos"
+    ],
+    "colors": [
+      "Amarillo",
+      "Naranja"
+    ],
+    "features": [
+      "Maceta de cerámica",
+      "Ideal para decorar",
+      "Colores personalizables"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DVggZ6fkSXw/",
+    "publishedAt": "2026-03-05"
+  },
+  {
+    "id": "vel-006",
+    "slug": "bouquet-primavera",
+    "name": "Bouquet Primavera",
+    "category": "bouquets",
+    "shortDescription": "Rosas amarillas y verdes en un florero de cerámica a rayas.",
+    "description": "Un detalle que ilumina cualquier espacio y corazón. Nuestro bouquet de velas artesanales combina elegancia, aroma y mucho amor en cada flor: rosas amarillas y verdes en un florero esférico de cerámica a rayas. Perfecto para regalar o decorar con un toque único.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/bouquet-primavera-1.webp",
+        "alt": "Bouquet de rosas en vela amarillas y verdes en florero de cerámica a rayas",
+        "width": 1200,
+        "height": 1200
+      }
+    ],
+    "occasions": [
+      "decoracion",
+      "cumpleanos"
+    ],
+    "colors": [
+      "Amarillo",
+      "Verde"
+    ],
+    "features": [
+      "Florero de cerámica",
+      "Pieza decorativa",
+      "Aromatizado"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DYYGoBnEbWE/",
+    "publishedAt": "2026-05-15"
+  },
+  {
+    "id": "vel-007",
+    "slug": "bouquet-feliz-cumpleanos",
+    "name": "Bouquet Feliz Cumpleaños",
+    "category": "bouquets",
+    "shortDescription": "Rosas y peonías rosadas con topper de cumpleaños y lazo dorado.",
+    "description": "Flores que nunca se marchitan y detalles hechos con amor. Rosas y peonías rosadas en vela con topper de \"Feliz Cumpleaños\", mariposa dorada y lazo de satín. Perfecto para cumpleaños, aniversarios o simplemente para alegrar el día de esa persona especial.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/bouquet-feliz-cumpleanos-1.webp",
+        "alt": "Bouquet de rosas rosadas en vela con topper de feliz cumpleaños",
+        "width": 1200,
+        "height": 1421
+      },
+      {
+        "src": "/images/products/bouquet-feliz-cumpleanos-2.webp",
+        "alt": "Vista frontal del bouquet rosado con lazo dorado",
+        "width": 1200,
+        "height": 1421
+      }
+    ],
+    "occasions": [
+      "cumpleanos",
+      "aniversario"
+    ],
+    "colors": [
+      "Rosa",
+      "Fucsia"
+    ],
+    "features": [
+      "Topper de cumpleaños",
+      "Lazo de satín dorado",
+      "Mensaje personalizado"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DYiOexXkXOX/",
+    "publishedAt": "2026-05-19"
+  },
+  {
+    "id": "vel-008",
+    "slug": "bouquet-virgen-maria",
+    "name": "Bouquet Virgen María",
+    "category": "bouquets",
+    "shortDescription": "Virgen en vela rodeada de rosas amarillas y rosadas.",
+    "description": "Creaciones que iluminan espacios y corazones. Una Virgen en vela rodeada de rosas y peonías amarillas y rosadas con flor de nube, presentada en base blanca con lazo rosado. Un detalle único para celebraciones religiosas, el Día de la Madre o cualquier ocasión especial.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/bouquet-virgen-maria-1.webp",
+        "alt": "Bouquet con Virgen María en vela rodeada de rosas amarillas y rosadas",
+        "width": 1200,
+        "height": 1551
+      }
+    ],
+    "occasions": [
+      "dia-de-la-madre",
+      "religioso",
+      "decoracion"
+    ],
+    "colors": [
+      "Amarillo",
+      "Rosa"
+    ],
+    "features": [
+      "Figura religiosa en vela",
+      "Base con lazo de satín",
+      "Ideal para celebraciones de fe"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DYxPypoxEHa/",
+    "publishedAt": "2026-05-25"
+  },
+  {
+    "id": "vel-009",
+    "slug": "ramo-amor-y-pureza",
+    "name": "Ramo Amor y Pureza",
+    "category": "bouquets",
+    "shortDescription": "Peonías rojas y blancas: rojo amor y blanco pureza.",
+    "description": "Ramo de velas en forma de flores: rojo amor y blanco pureza, perfecto para regalar o decorar. Peonías y rosas en vela envueltas en papel coreano rosado con mariposa dorada y flor de nube. Elegancia que ilumina.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/ramo-amor-y-pureza-1.webp",
+        "alt": "Ramo de peonías en vela rojas y blancas con mariposa dorada",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/images/products/ramo-amor-y-pureza-2.webp",
+        "alt": "Ramo de flores en vela rojas y blancas con tarjeta para mamá",
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "occasions": [
+      "amor-y-amistad",
+      "aniversario",
+      "dia-de-la-madre"
+    ],
+    "colors": [
+      "Rojo",
+      "Blanco"
+    ],
+    "features": [
+      "Papel coreano con lazo",
+      "Tarjeta personalizada",
+      "Flor de nube natural"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DOtiIknkYZr/",
+    "publishedAt": "2025-09-17"
+  },
+  {
+    "id": "vel-010",
+    "slug": "mini-bouquet-tulipanes-rosados",
+    "name": "Mini Bouquet Tulipanes Rosados",
+    "category": "bouquets",
+    "shortDescription": "Tulipanes rosados en vela: ternura y nuevos comienzos.",
+    "description": "Tulipanes en vela que simbolizan ternura, nuevos comienzos y sentimientos que florecen incluso en los momentos difíciles. Llenan cualquier espacio de belleza y calma. Perfectos para regalar o decorar con un toque romántico, porque a veces un detalle dice más que mil palabras.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/mini-bouquet-tulipanes-rosados-1.webp",
+        "alt": "Mini bouquet de tulipanes rosados en vela con flor de nube",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/images/products/mini-bouquet-tulipanes-rosados-2.webp",
+        "alt": "Tulipanes rosados en vela con mariposa dorada",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "src": "/images/products/mini-bouquet-tulipanes-rosados-3.webp",
+        "alt": "Tulipanes en vela con tarjeta de mensaje y lazo dorado",
+        "width": 1200,
+        "height": 1600
+      }
+    ],
+    "occasions": [
+      "amor-y-amistad",
+      "cumpleanos"
+    ],
+    "colors": [
+      "Rosa"
+    ],
+    "features": [
+      "Formato mini",
+      "Tarjeta con mensaje",
+      "Lazo de satín"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DOMScMbEfha/",
+    "publishedAt": "2026-02-11"
+  },
+  {
+    "id": "vel-011",
+    "slug": "mini-bouquet-tulipanes-rojos",
+    "name": "Mini Bouquet Tulipanes Rojos",
+    "category": "bouquets",
+    "shortDescription": "Tulipanes rojos en vela, un clásico para celebrar el amor.",
+    "description": "Un hermoso mini bouquet en vela de tulipanes rojos, hecho con mucho amor. Con flor de nube, mariposa dorada y lazo de satín, es el detalle ideal para celebrar el amor con algo único.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/mini-bouquet-tulipanes-rojos-1.webp",
+        "alt": "Mini bouquet de tulipanes rojos en vela con mariposa dorada",
+        "width": 1200,
+        "height": 1200
+      }
+    ],
+    "occasions": [
+      "amor-y-amistad",
+      "aniversario"
+    ],
+    "colors": [
+      "Rojo"
+    ],
+    "features": [
+      "Formato mini",
+      "Mariposa dorada",
+      "Lazo de satín"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DUWqqv_ka2t/",
+    "publishedAt": "2026-02-04"
+  },
+  {
+    "id": "vel-012",
+    "slug": "bouquet-rosado-romantico",
+    "name": "Bouquet Rosado Romántico",
+    "category": "bouquets",
+    "shortDescription": "Rosas y peonías rosadas envueltas en papel coreano.",
+    "description": "Luz suave, flores eternas. Velas en tonos rosados que dan vida a rosas y peonías llenas de romanticismo y belleza natural. Hechas a mano, aromáticas y perfectas para regalar o decorar: flores que no se marchitan, velas que iluminan con estilo.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/bouquet-rosado-romantico-1.webp",
+        "alt": "Bouquet de rosas y peonías rosadas en vela envuelto en papel coreano",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/images/products/bouquet-rosado-romantico-2.webp",
+        "alt": "Ramo de rosas rosadas en vela con flor de nube",
+        "width": 1200,
+        "height": 1600
+      }
+    ],
+    "occasions": [
+      "amor-y-amistad",
+      "aniversario",
+      "cumpleanos"
+    ],
+    "colors": [
+      "Rosa",
+      "Blanco"
+    ],
+    "features": [
+      "Papel coreano",
+      "Mariposa dorada",
+      "Aromatizado"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DO9dCdakQgV/",
+    "publishedAt": "2025-10-23"
+  },
+  {
+    "id": "vel-013",
+    "slug": "bouquet-arcoiris-pastel",
+    "name": "Bouquet Arcoíris Pastel",
+    "category": "bouquets",
+    "shortDescription": "Rosas en vela azul, rosa, lila y durazno con tarjeta personalizada.",
+    "description": "Detalles que enamoran a primera vista. Velas aromatizadas en forma de rosas en tonos azul, rosa, lila y durazno que convierten momentos en recuerdos inolvidables. Incluye tarjeta con tu mensaje y mariposa dorada. Personalízalo a tu gusto.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/bouquet-arcoiris-pastel-1.webp",
+        "alt": "Bouquet de rosas en vela en colores pastel con tarjeta y mariposa dorada",
+        "width": 1200,
+        "height": 1601
+      }
+    ],
+    "occasions": [
+      "cumpleanos",
+      "dia-de-la-madre",
+      "amor-y-amistad"
+    ],
+    "colors": [
+      "Azul",
+      "Rosa",
+      "Lila",
+      "Durazno"
+    ],
+    "features": [
+      "Tarjeta personalizada",
+      "Multicolor",
+      "Aromatizado"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DWh1zxxke_P/",
+    "publishedAt": "2026-03-31"
+  },
+  {
+    "id": "vel-014",
+    "slug": "ramo-lila-y-amarillo",
+    "name": "Ramo Lila y Amarillo",
+    "category": "bouquets",
+    "shortDescription": "Peonías y rosas lila y amarillas en papel coreano.",
+    "description": "Ramo de velas en tonos morado y amarillo, una combinación vibrante que llena de luz cualquier espacio. Envuelto en papel coreano lila con mariposa dorada. Personaliza el tuyo con tus colores favoritos.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/ramo-lila-y-amarillo-1.webp",
+        "alt": "Ramo de flores en vela lila y amarillas envuelto en papel coreano",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/images/products/ramo-lila-y-amarillo-2.webp",
+        "alt": "Detalle del ramo lila y amarillo con mariposa dorada",
+        "width": 1200,
+        "height": 1600
+      }
+    ],
+    "occasions": [
+      "cumpleanos",
+      "amor-y-amistad"
+    ],
+    "colors": [
+      "Lila",
+      "Amarillo"
+    ],
+    "features": [
+      "Papel coreano",
+      "Mariposa dorada",
+      "Colores personalizables"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DNyzq0W4p9-/",
+    "publishedAt": "2025-08-25"
+  },
+  {
+    "id": "vel-015",
+    "slug": "bouquet-mariposa-rosa",
+    "name": "Bouquet Mariposa Rosa",
+    "category": "bouquets",
+    "shortDescription": "Bouquet en tonos rosados con mariposa en vela y escarcha.",
+    "description": "Bouquet de velas en tonos rosados con una mariposa en vela con brillo, rosas y peonías, flor de nube y lazo rosado de satín. Un regalo dulce y lleno de detalles para sorprender a quien más quieres.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/bouquet-mariposa-rosa-1.webp",
+        "alt": "Bouquet de flores en vela rosadas con mariposa y lazo rosado",
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "occasions": [
+      "cumpleanos",
+      "aniversario",
+      "dia-de-la-madre"
+    ],
+    "colors": [
+      "Rosa",
+      "Fucsia"
+    ],
+    "features": [
+      "Mariposa en vela con brillo",
+      "Lazo de satín",
+      "Envíos nacionales"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DKvECJHxD2b/",
+    "publishedAt": "2025-06-10"
+  },
+  {
+    "id": "vel-016",
+    "slug": "bouquet-tonos-rosados",
+    "name": "Bouquet Tonos Rosados",
+    "category": "bouquets",
+    "shortDescription": "Gerberas, rosas y peonías en rosa y fucsia con lazo dorado.",
+    "description": "Bouquet en tonos rosados con gerberas, rosas y peonías en vela, flor de nube y lazo dorado de satín. Un arreglo abundante y alegre para celebrar cualquier ocasión. Separa el tuyo.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/bouquet-tonos-rosados-1.webp",
+        "alt": "Bouquet de gerberas, rosas y peonías en vela en tonos rosados",
+        "width": 1200,
+        "height": 1390
+      }
+    ],
+    "occasions": [
+      "cumpleanos",
+      "dia-de-la-madre",
+      "aniversario"
+    ],
+    "colors": [
+      "Rosa",
+      "Fucsia",
+      "Rojo"
+    ],
+    "features": [
+      "Gerberas en vela con brillo",
+      "Lazo dorado",
+      "Arreglo abundante"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DKDPZt_g_E3/",
+    "publishedAt": "2025-05-24"
+  },
+  {
+    "id": "vel-017",
+    "slug": "bouquet-coral",
+    "name": "Bouquet Coral",
+    "category": "bouquets",
+    "shortDescription": "Rosas y peonías coral y rosa en maceta blanca con lazo dorado.",
+    "description": "La belleza está en los detalles. Un bouquet que no se marchita y llena cada espacio de amor y delicadeza: rosas y peonías en tonos coral y rosa, mariposa dorada y maceta blanca con lazo de satín. Perfecto para regalar o decorar momentos especiales.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/bouquet-coral-1.webp",
+        "alt": "Bouquet de flores en vela coral y rosa sobre una mesa de sala",
+        "width": 1200,
+        "height": 1475
+      }
+    ],
+    "occasions": [
+      "decoracion",
+      "cumpleanos",
+      "aniversario"
+    ],
+    "colors": [
+      "Coral",
+      "Rosa"
+    ],
+    "features": [
+      "Maceta blanca con lazo dorado",
+      "Pieza decorativa",
+      "Aromatizado"
+    ],
+    "customizable": true,
+    "featured": true,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DXFun3RETGf/",
+    "publishedAt": "2026-04-13"
+  },
+  {
+    "id": "vel-018",
+    "slug": "bouquet-clasico",
+    "name": "Bouquet Clásico",
+    "category": "bouquets",
+    "shortDescription": "Nuestro bouquet más querido: rosas coral, rosa y blanco.",
+    "description": "Bouquet de flores de vela en tonos coral, rosa y blanco con flor de nube y lazo dorado. Uno de los diseños favoritos de nuestra comunidad: clásico, elegante y siempre acertado. Separa ya el tuyo.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/bouquet-clasico-1.webp",
+        "alt": "Bouquet de flores de vela en tonos coral y rosa con lazo dorado",
+        "width": 1200,
+        "height": 1424
+      }
+    ],
+    "occasions": [
+      "dia-de-la-madre",
+      "cumpleanos",
+      "aniversario"
+    ],
+    "colors": [
+      "Coral",
+      "Rosa",
+      "Blanco"
+    ],
+    "features": [
+      "Favorito de la comunidad",
+      "Lazo dorado",
+      "Flor de nube natural"
+    ],
+    "customizable": true,
+    "featured": true,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DJaNVwby96K/",
+    "publishedAt": "2025-05-08"
+  },
+  {
+    "id": "vel-019",
+    "slug": "bouquet-tonos-morados",
+    "name": "Bouquet Tonos Morados",
+    "category": "bouquets",
+    "shortDescription": "Peonías y rosas lila y moradas en base blanca con lazo rosado.",
+    "description": "Bouquet de flores en vela en tonos morados y lila: peonías, rosas y tulipanes con flor de nube, mariposa dorada y base blanca con lazo rosado de satín. Un detalle elegante que nunca se marchita.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/bouquet-tonos-morados-1.webp",
+        "alt": "Bouquet de flores en vela en tonos morados con lazo rosado",
+        "width": 1200,
+        "height": 1600
+      }
+    ],
+    "occasions": [
+      "cumpleanos",
+      "aniversario",
+      "decoracion"
+    ],
+    "colors": [
+      "Morado",
+      "Lila"
+    ],
+    "features": [
+      "Base blanca con lazo",
+      "Mariposa dorada",
+      "Aromatizado"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DOeUzw_EdFU/",
+    "publishedAt": "2025-09-11"
+  },
+  {
+    "id": "vel-020",
+    "slug": "ramo-pastel-historias",
+    "name": "Ramo Pastel",
+    "category": "bouquets",
+    "shortDescription": "Peonías lila, crema y rosa en papel coreano translúcido.",
+    "description": "Cada ramo cuenta una historia. Peonías en vela en tonos lila, crema y rosa, envueltas en papel coreano translúcido con mariposa y tarjeta. ¿Qué esperas para crear la tuya?",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/ramo-pastel-historias-1.webp",
+        "alt": "Ramo de peonías en vela lila, crema y rosa en papel translúcido",
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "occasions": [
+      "dia-de-la-madre",
+      "cumpleanos"
+    ],
+    "colors": [
+      "Lila",
+      "Crema",
+      "Rosa"
+    ],
+    "features": [
+      "Papel coreano translúcido",
+      "Tarjeta personalizada",
+      "Mariposa decorativa"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DJSgWx6xg6u/",
+    "publishedAt": "2025-05-05"
+  },
+  {
+    "id": "vel-021",
+    "slug": "ramo-fucsia-para-mama",
+    "name": "Ramo Fucsia para Mamá",
+    "category": "bouquets",
+    "shortDescription": "Peonías fucsia y crema con topper \"Con amor para mamá\".",
+    "description": "Porque cada detalle cuenta y mamá lo merece todo. Peonías y rosas en vela fucsia y crema con brillo, flor de nube y topper \"Con amor para mamá\". Separa ya tu ramo.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/ramo-fucsia-para-mama-1.webp",
+        "alt": "Ramo de peonías en vela fucsia y crema con topper para mamá",
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "occasions": [
+      "dia-de-la-madre"
+    ],
+    "colors": [
+      "Fucsia",
+      "Crema"
+    ],
+    "features": [
+      "Topper personalizado",
+      "Velas con brillo",
+      "Papel coreano"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DJSfTgMxsAT/",
+    "publishedAt": "2025-05-05"
+  },
+  {
+    "id": "vel-022",
+    "slug": "ramo-esmeralda",
+    "name": "Ramo Esmeralda",
+    "category": "bouquets",
+    "shortDescription": "Rosas verde esmeralda y blancas en papel kraft.",
+    "description": "La fragancia que llena de alegría cada rincón. Rosas en vela verde esmeralda y blancas con follaje, envueltas en papel kraft con mariposa dorada y tarjeta. Sorprende a tu persona especial con un regalo diferente.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/ramo-esmeralda-1.webp",
+        "alt": "Ramo de rosas en vela verde esmeralda y blancas en papel kraft",
+        "width": 1200,
+        "height": 1435
+      }
+    ],
+    "occasions": [
+      "dia-de-la-madre",
+      "cumpleanos"
+    ],
+    "colors": [
+      "Verde",
+      "Blanco"
+    ],
+    "features": [
+      "Papel kraft",
+      "Tarjeta personalizada",
+      "Combinación única"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DJMnwtdx7pC/",
+    "publishedAt": "2025-05-03"
+  },
+  {
+    "id": "vel-023",
+    "slug": "ramo-rojo-pasion",
+    "name": "Ramo Rojo Pasión",
+    "category": "bouquets",
+    "shortDescription": "Rosas rojas en vela con follaje en papel kraft.",
+    "description": "Algo especial, flores llenas de aroma. Rosas rojas en vela con follaje verde y flor de nube, envueltas en papel kraft con mariposa dorada y tarjeta. El clásico que nunca falla. Elige tu ramo.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/ramo-rojo-pasion-1.webp",
+        "alt": "Ramo de rosas rojas en vela envuelto en papel kraft",
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "occasions": [
+      "amor-y-amistad",
+      "aniversario",
+      "dia-de-la-madre"
+    ],
+    "colors": [
+      "Rojo"
+    ],
+    "features": [
+      "Papel kraft",
+      "Tarjeta personalizada",
+      "Aromatizado"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DJKT0P_RhpD/",
+    "publishedAt": "2025-05-02"
+  },
+  {
+    "id": "vel-024",
+    "slug": "inicial-rosas-chocolates",
+    "name": "Inicial con Rosas y Chocolates",
+    "category": "detalles",
+    "shortDescription": "La inicial que elijas, llena de rosas en vela y chocolates Ferrero.",
+    "description": "Celebra su amor con un detalle único: iniciales personalizadas con rosas en vela y el toque dulce del chocolate. Elige la letra y el color de las rosas (rojo, rosado o el que prefieras). Un regalo que habla por ti y queda en el corazón para siempre. Edición especial que enamoró en el Mes de las Madres.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/inicial-rosas-chocolates-1.webp",
+        "alt": "Letra M rellena de rosas rojas en vela y chocolates Ferrero",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "src": "/images/products/inicial-rosas-chocolates-2.webp",
+        "alt": "Letra M rellena de rosas rosadas en vela y chocolates",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "src": "/images/products/inicial-rosas-chocolates-3.webp",
+        "alt": "Inicial con rosas rojas en vela y chocolates, el regalo que ella merece",
+        "width": 1200,
+        "height": 1200
+      }
+    ],
+    "occasions": [
+      "dia-de-la-madre",
+      "amor-y-amistad",
+      "cumpleanos",
+      "aniversario"
+    ],
+    "colors": [
+      "Rojo",
+      "Rosa"
+    ],
+    "features": [
+      "Letra personalizada",
+      "Incluye chocolates Ferrero Rocher",
+      "Rosas en vela aromatizadas"
+    ],
+    "customizable": true,
+    "featured": true,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DXzkKeMkW5g/",
+    "publishedAt": "2026-05-01"
+  },
+  {
+    "id": "vel-025",
+    "slug": "cajita-cuatro-velas",
+    "name": "Cajita x4 Velas Aromatizadas",
+    "category": "detalles",
+    "shortDescription": "Cuatro flores en vela en caja de regalo: tú eliges colores y aroma.",
+    "description": "Cajita con cuatro velas aromatizadas en forma de flor, presentada en caja con visor y lazo dorado. Elige los colores y el aroma. Un detalle práctico, elegante y listo para regalar.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/cajita-cuatro-velas-1.webp",
+        "alt": "Cajita de regalo con cuatro velas en forma de flor y lazo dorado",
+        "width": 1200,
+        "height": 1200
+      }
+    ],
+    "occasions": [
+      "cumpleanos",
+      "amor-y-amistad",
+      "empresarial"
+    ],
+    "colors": [
+      "Rosa",
+      "Lila",
+      "Azul"
+    ],
+    "features": [
+      "4 velas aromatizadas",
+      "Caja con visor y lazo",
+      "Elige colores y aroma"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DKkDdIMRpqX/",
+    "publishedAt": "2025-06-06"
+  },
+  {
+    "id": "vel-026",
+    "slug": "cajita-amor-y-amistad",
+    "name": "Cajita Amor y Amistad",
+    "category": "detalles",
+    "shortDescription": "Peonía y rosas en vela en cajita lista para regalar.",
+    "description": "Un detalle que dice \"te quiero\" sin palabras. Velas en forma de flores llenas de aroma, color y cariño: una peonía grande y rosas pequeñas sobre viruta natural, en cajita con visor y lazo de satín. Vienen listas para regalar.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/cajita-amor-y-amistad-1.webp",
+        "alt": "Cajita de regalo con peonía y rosas rosadas en vela y lazo rosado",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/images/products/cajita-amor-y-amistad-2.webp",
+        "alt": "Cajita con flores amarillas en vela y lazo dorado",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/images/products/cajita-amor-y-amistad-3.webp",
+        "alt": "Cajita con flores azules en vela y lazo dorado",
+        "width": 1200,
+        "height": 1600
+      }
+    ],
+    "occasions": [
+      "amor-y-amistad",
+      "cumpleanos"
+    ],
+    "colors": [
+      "Rosa",
+      "Amarillo",
+      "Azul"
+    ],
+    "features": [
+      "Cajita con visor",
+      "Lista para regalar",
+      "Elige tu color"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DOzImlzkXzI/",
+    "publishedAt": "2025-09-19"
+  },
+  {
+    "id": "vel-027",
+    "slug": "peonia-en-caja",
+    "name": "Peonía en Caja",
+    "category": "detalles",
+    "shortDescription": "Una gran peonía en vela en caja de regalo con lazo dorado.",
+    "description": "Las peonías siempre serán un buen detalle. Una peonía en vela de gran formato sobre flor de nube, presentada en caja con visor y lazo dorado de satín. Disponible en varios colores: durazno, amarillo, vino, verde y más.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/peonia-en-caja-1.webp",
+        "alt": "Peonía en vela color durazno en caja con lazo dorado",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "src": "/images/products/peonia-en-caja-2.webp",
+        "alt": "Peonía en vela verde en caja de regalo",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "src": "/images/products/peonia-en-caja-3.webp",
+        "alt": "Peonía en vela color vino en caja con lazo dorado",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "src": "/images/products/peonia-en-caja-4.webp",
+        "alt": "Peonía en vela amarilla en caja de regalo",
+        "width": 1200,
+        "height": 1200
+      }
+    ],
+    "occasions": [
+      "cumpleanos",
+      "dia-de-la-madre",
+      "empresarial"
+    ],
+    "colors": [
+      "Durazno",
+      "Amarillo",
+      "Vino",
+      "Verde"
+    ],
+    "features": [
+      "Vela de gran formato",
+      "Caja con visor y lazo",
+      "Varios colores"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DJnCFH2SD32/",
+    "publishedAt": "2025-05-13"
+  },
+  {
+    "id": "vel-028",
+    "slug": "cajita-rosas-blancas",
+    "name": "Cajita Rosas Blancas",
+    "category": "detalles",
+    "shortDescription": "Peonía y rosas blancas en vela con lazo rosado.",
+    "description": "Una presentación que enamora: peonía y rosas blancas en vela sobre viruta natural, en cajita con visor, lazo rosado y sello Velaire. Delicada, elegante y lista para entregar.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/cajita-rosas-blancas-1.webp",
+        "alt": "Cajita con peonía y rosas blancas en vela y lazo rosado",
+        "width": 1200,
+        "height": 1200
+      }
+    ],
+    "occasions": [
+      "dia-de-la-madre",
+      "aniversario",
+      "religioso"
+    ],
+    "colors": [
+      "Blanco"
+    ],
+    "features": [
+      "Cajita con visor",
+      "Lazo de satín",
+      "Lista para regalar"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DJXHhW5x8P5/",
+    "publishedAt": "2025-05-07"
+  },
+  {
+    "id": "vel-029",
+    "slug": "vela-burbuja",
+    "name": "Vela Burbuja",
+    "category": "decorativas",
+    "shortDescription": "Vela cubo de burbujas aromatizada, tendencia en decoración.",
+    "description": "Nuestras velas aromatizadas no solo iluminan, también envuelven tu espacio con delicadeza, estilo y armonía. La vela burbuja es una pieza moderna y aromática, perfecta para crear ambientes únicos. Disponible en varios colores.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/vela-burbuja-1.webp",
+        "alt": "Velas burbuja aromatizadas en amarillo y fucsia sobre bandejas",
+        "width": 1200,
+        "height": 1439
+      }
+    ],
+    "occasions": [
+      "decoracion",
+      "cumpleanos"
+    ],
+    "colors": [
+      "Amarillo",
+      "Fucsia"
+    ],
+    "features": [
+      "Diseño moderno",
+      "Aromatizada",
+      "Varios colores"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DP69opsEV0K/",
+    "publishedAt": "2025-10-17"
+  },
+  {
+    "id": "vel-030",
+    "slug": "vela-ramo-tulipanes",
+    "name": "Vela Ramo de Tulipanes",
+    "category": "decorativas",
+    "shortDescription": "Escultura en vela de un ramillete de tulipanes amarillos.",
+    "description": "Regala flores amarillas, regala alegría y esperanza. Vela escultórica en forma de ramillete de tulipanes con tallos verdes. Una pieza decorativa y aromática que sorprende por su detalle. Pregunta por el color de tu preferencia.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/vela-ramo-tulipanes-1.webp",
+        "alt": "Vela escultórica en forma de ramillete de tulipanes amarillos",
+        "width": 1200,
+        "height": 1599
+      }
+    ],
+    "occasions": [
+      "flores-amarillas",
+      "decoracion"
+    ],
+    "colors": [
+      "Amarillo"
+    ],
+    "features": [
+      "Pieza escultórica",
+      "Aromatizada",
+      "Pregunta por otros colores"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DOErMzLkcIt/",
+    "publishedAt": "2025-09-01"
+  },
+  {
+    "id": "vel-031",
+    "slug": "vela-bambuquera",
+    "name": "Vela Bambuquera",
+    "category": "recordatorios",
+    "shortDescription": "La bambuquera huilense en vela, ideal para recordatorios de San Pedro.",
+    "description": "Al ritmo del Sanjuanero y el encanto del Huila, nuestra vela Bambuquera llena cada espacio de luz, aroma y tradición. Ideal para tus recordatorios en el mes de junio, eventos culturales y detalles con orgullo opita. Disponible en varios colores y por cantidad.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/vela-bambuquera-1.webp",
+        "alt": "Vela bambuquera rosada sobre base blanca",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/images/products/vela-bambuquera-2.webp",
+        "alt": "Velas bambuqueras en colores pastel para recordatorios",
+        "width": 1200,
+        "height": 1200
+      }
+    ],
+    "occasions": [
+      "recordatorio",
+      "empresarial",
+      "decoracion"
+    ],
+    "colors": [
+      "Rosa",
+      "Azul",
+      "Amarillo",
+      "Lila"
+    ],
+    "features": [
+      "Tradición huilense",
+      "Pedidos por cantidad",
+      "Varios colores"
+    ],
+    "customizable": true,
+    "featured": true,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DZC06W8ER0H/",
+    "publishedAt": "2026-06-01"
+  },
+  {
+    "id": "vel-032",
+    "slug": "angel-primera-comunion",
+    "name": "Ángel de Primera Comunión",
+    "category": "recordatorios",
+    "shortDescription": "Ángeles en vela para recordar un día muy especial.",
+    "description": "Un detalle que ilumina un día muy especial. Ángeles en vela con alas doradas, un hermoso recuerdo para celebrar la Primera Comunión y compartir con quienes hacen parte de este momento tan importante. Hechos con amor para recuerdos inolvidables. También ideales para bautizos y confirmaciones.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/angel-primera-comunion-1.webp",
+        "alt": "Ángel en vela blanco con alas doradas",
+        "width": 720,
+        "height": 960
+      },
+      {
+        "src": "/images/products/angel-primera-comunion-2.webp",
+        "alt": "Mesa decorada con ángeles en vela como recordatorios de primera comunión",
+        "width": 1200,
+        "height": 1599
+      }
+    ],
+    "occasions": [
+      "primera-comunion",
+      "recordatorio",
+      "religioso"
+    ],
+    "colors": [
+      "Blanco",
+      "Dorado"
+    ],
+    "features": [
+      "Alas doradas",
+      "Pedidos por cantidad",
+      "Ideal para bautizos y comuniones"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DcetvjsmHTx/",
+    "publishedAt": "2026-08-25"
+  },
+  {
+    "id": "vel-033",
+    "slug": "sagrada-familia",
+    "name": "Vela Sagrada Familia",
+    "category": "recordatorios",
+    "shortDescription": "Medallón ovalado en vela con la Sagrada Familia.",
+    "description": "Vela en forma de medallón ovalado con la Sagrada Familia en relieve. Ideal para recordatorios de bautizo, primera comunión o eventos empresariales. Disponible en tonos pastel y por cantidad.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/sagrada-familia-1.webp",
+        "alt": "Velas de la Sagrada Familia en tonos pastel",
+        "width": 1200,
+        "height": 1201
+      }
+    ],
+    "occasions": [
+      "recordatorio",
+      "religioso",
+      "empresarial"
+    ],
+    "colors": [
+      "Rosa",
+      "Azul",
+      "Amarillo",
+      "Lila"
+    ],
+    "features": [
+      "Relieve detallado",
+      "Pedidos por cantidad",
+      "Tonos pastel"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": false,
+    "instagramUrl": "https://www.instagram.com/p/DKXg6N6x4ta/",
+    "publishedAt": "2025-06-01"
+  },
+  {
+    "id": "vel-034",
+    "slug": "arbolito-recordatorio",
+    "name": "Arbolito Recordatorio",
+    "category": "recordatorios",
+    "shortDescription": "Mini árbol en vela con tarjeta, para baby shower y empresas.",
+    "description": "Recordatorios de velas aromatizadas en forma de árbol, presentados con base de cartulina, lazo y tarjeta de agradecimiento personalizada. Perfectos para baby shower, eventos empresariales y cierres de año. Pedidos por cantidad.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/arbolito-recordatorio-1.webp",
+        "alt": "Recordatorios de arbolitos en vela con tarjetas personalizadas",
+        "width": 1200,
+        "height": 1571
+      },
+      {
+        "src": "/images/products/arbolito-recordatorio-2.webp",
+        "alt": "Arbolitos en vela rojo y verde con lazo y tarjeta",
+        "width": 1200,
+        "height": 1571
+      }
+    ],
+    "occasions": [
+      "recordatorio",
+      "empresarial",
+      "baby-shower",
+      "navidad"
+    ],
+    "colors": [
+      "Verde",
+      "Rojo"
+    ],
+    "features": [
+      "Tarjeta personalizada",
+      "Pedidos por cantidad",
+      "Ideal para empresas"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": true,
+    "instagramUrl": "https://www.instagram.com/p/DRcag9ekXha/",
+    "publishedAt": "2025-11-24"
+  },
+  {
+    "id": "vel-035",
+    "slug": "reno-navideno",
+    "name": "Reno Navideño",
+    "category": "navidad",
+    "shortDescription": "Nuestro reno en vela con cascabel: magia navideña para tu hogar.",
+    "description": "¡La magia de la Navidad llega a Velaire! Nuestro reno en vela es ese detalle encantador que llena tus espacios de luz, calidez y espíritu navideño. Con collar rojo y cascabel dorado. Decora, regala y enciende la magia de esta Navidad.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/reno-navideno-1.webp",
+        "alt": "Reno navideño en vela blanco con collar rojo y cascabel",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/images/products/reno-navideno-2.webp",
+        "alt": "Reno en vela junto a arbolitos de navidad dorado y blanco",
+        "width": 1200,
+        "height": 1600
+      }
+    ],
+    "occasions": [
+      "navidad",
+      "decoracion"
+    ],
+    "colors": [
+      "Blanco"
+    ],
+    "features": [
+      "Collar con cascabel",
+      "Aromatizado",
+      "Edición Navidad"
+    ],
+    "customizable": false,
+    "featured": true,
+    "isNew": true,
+    "seasonal": true,
+    "instagramUrl": "https://www.instagram.com/p/DfDiodFxNxW/",
+    "publishedAt": "2026-10-28"
+  },
+  {
+    "id": "vel-036",
+    "slug": "arbolitos-navidad",
+    "name": "Arbolitos de Navidad",
+    "category": "navidad",
+    "shortDescription": "Árboles en vela aromatizada en dorado, blanco, verde y rojo.",
+    "description": "Pequeños detalles que iluminan grandes momentos. Velas aromatizadas en forma de árbol de Navidad que combinan diseño exclusivo y fragancias cálidas para crear una experiencia mágica. Perfectas para decorar, regalar o realzar ambientes. Reserva las tuyas.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/arbolitos-navidad-1.webp",
+        "alt": "Arbolitos de navidad en vela verde, dorado y blanco",
+        "width": 1200,
+        "height": 1600
+      }
+    ],
+    "occasions": [
+      "navidad",
+      "decoracion",
+      "empresarial"
+    ],
+    "colors": [
+      "Dorado",
+      "Blanco",
+      "Verde",
+      "Rojo"
+    ],
+    "features": [
+      "Varios colores",
+      "Aromatizado",
+      "Edición Navidad"
+    ],
+    "customizable": true,
+    "featured": false,
+    "isNew": false,
+    "seasonal": true,
+    "instagramUrl": "https://www.instagram.com/p/DRvdRLLEXFe/",
+    "publishedAt": "2025-12-02"
+  },
+  {
+    "id": "vel-037",
+    "slug": "set-navideno",
+    "name": "Set Navideño",
+    "category": "navidad",
+    "shortDescription": "Reno, árbol y muñeco de nieve en vela para decorar en conjunto.",
+    "description": "Dale magia a tu Navidad. Velas aromatizadas en forma de reno, árbol y muñeco de nieve, creadas para llenar tus espacios de luz, aroma y encanto. Perfectas para decorar, regalar y hacer que cada rincón se sienta más especial.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/set-navideno-1.webp",
+        "alt": "Set navideño de velas: reno, arbolitos y muñeco de nieve",
+        "width": 1200,
+        "height": 1600
+      }
+    ],
+    "occasions": [
+      "navidad",
+      "decoracion"
+    ],
+    "colors": [
+      "Blanco",
+      "Dorado"
+    ],
+    "features": [
+      "3 piezas",
+      "Aromatizado",
+      "Edición Navidad"
+    ],
+    "customizable": false,
+    "featured": false,
+    "isNew": false,
+    "seasonal": true,
+    "instagramUrl": "https://www.instagram.com/p/DR5GbZMkW8v/",
+    "publishedAt": "2025-12-05"
+  },
+  {
+    "id": "vel-038",
+    "slug": "munequito-de-nieve",
+    "name": "Muñequito de Nieve",
+    "category": "navidad",
+    "shortDescription": "Muñeco de nieve en vela con gorro y bufanda dorados.",
+    "description": "Un muñeco de nieve en vela con gorro y detalles dorados que aporta ternura y calidez a tu decoración navideña. Combínalo con el reno y los arbolitos para crear tu rincón mágico.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/munequito-de-nieve-1.webp",
+        "alt": "Muñeco de nieve en vela blanco con detalles dorados",
+        "width": 1200,
+        "height": 1600
+      }
+    ],
+    "occasions": [
+      "navidad",
+      "decoracion"
+    ],
+    "colors": [
+      "Blanco",
+      "Dorado"
+    ],
+    "features": [
+      "Detalles dorados",
+      "Aromatizado",
+      "Edición Navidad"
+    ],
+    "customizable": false,
+    "featured": false,
+    "isNew": false,
+    "seasonal": true,
+    "instagramUrl": "https://www.instagram.com/p/DR5GbZMkW8v/",
+    "publishedAt": "2025-12-05"
+  },
+  {
+    "id": "vel-039",
+    "slug": "pesebre-en-vela",
+    "name": "Pesebre en Vela",
+    "category": "navidad",
+    "shortDescription": "La luz que inspira paz y esperanza: pesebre artesanal en vela.",
+    "description": "Una vela única que une tradición, aroma y calidez navideña. Pesebre en vela con la Sagrada Familia, decorado con follaje sobre base blanca. Perfecto para regalar o acompañar tus momentos más especiales en familia.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/pesebre-en-vela-1.webp",
+        "alt": "Pesebre en vela con la Sagrada Familia sobre base decorada",
+        "width": 1200,
+        "height": 1303
+      }
+    ],
+    "occasions": [
+      "navidad",
+      "religioso",
+      "decoracion"
+    ],
+    "colors": [
+      "Café"
+    ],
+    "features": [
+      "Pieza artesanal",
+      "Base decorada",
+      "Edición Navidad"
+    ],
+    "customizable": false,
+    "featured": false,
+    "isNew": false,
+    "seasonal": true,
+    "instagramUrl": "https://www.instagram.com/p/DQ7tlv0kTbM/",
+    "publishedAt": "2025-11-11"
+  },
+  {
+    "id": "vel-040",
+    "slug": "caja-velitas-deseos",
+    "name": "Caja de Velitas de Deseos",
+    "category": "navidad",
+    "shortDescription": "Velitas personalizadas con deseos para el 7 de diciembre.",
+    "description": "Ilumina la noche más mágica del año. Este 7 de diciembre celebra el Día de Velitas con nuestras velas personalizadas: cada caja trae velitas con un deseo (abundancia, salud, prosperidad, éxito, felicidad, amor y más). Diseños únicos para decorar, regalar y compartir en familia. Ideal también como detalle empresarial.",
+    "price": null,
+    "images": [
+      {
+        "src": "/images/products/caja-velitas-deseos-1.webp",
+        "alt": "Caja de velitas Noche de Deseos con lazo dorado",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "src": "/images/products/caja-velitas-deseos-2.webp",
+        "alt": "Caja de velitas Felices Fiestas con deseos personalizados",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "src": "/images/products/caja-velitas-deseos-3.webp",
+        "alt": "Caja de velitas Feliz Día de Velitas en azul",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "src": "/images/products/caja-velitas-deseos-4.webp",
+        "alt": "Caja de velitas con diseño de Papá Noel",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "src": "/images/products/caja-velitas-deseos-5.webp",
+        "alt": "Caja de velitas con diseño de gnomo navideño",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "src": "/images/products/caja-velitas-deseos-6.webp",
+        "alt": "Caja de velitas con muñeco de nieve y reno",
+        "width": 1200,
+        "height": 1200
+      }
+    ],
+    "occasions": [
+      "navidad",
+      "empresarial"
+    ],
+    "colors": [
+      "Multicolor"
+    ],
+    "features": [
+      "Velitas con deseos",
+      "Varios diseños de caja",
+      "Pedidos empresariales"
+    ],
+    "customizable": true,
+    "featured": true,
+    "isNew": false,
+    "seasonal": true,
+    "instagramUrl": "https://www.instagram.com/p/DQDEDpJDLPJ/",
+    "publishedAt": "2025-10-20"
+  }
+]

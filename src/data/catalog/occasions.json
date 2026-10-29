@@ -1,0 +1,15 @@
+[
+  { "slug": "amor-y-amistad", "name": "Amor y amistad" },
+  { "slug": "dia-de-la-madre", "name": "Día de la Madre" },
+  { "slug": "cumpleanos", "name": "Cumpleaños" },
+  { "slug": "aniversario", "name": "Aniversarios" },
+  { "slug": "dia-de-la-mujer", "name": "Día de la Mujer" },
+  { "slug": "flores-amarillas", "name": "Flores amarillas" },
+  { "slug": "navidad", "name": "Navidad" },
+  { "slug": "primera-comunion", "name": "Primera Comunión" },
+  { "slug": "baby-shower", "name": "Baby shower" },
+  { "slug": "recordatorio", "name": "Recordatorios" },
+  { "slug": "empresarial", "name": "Empresarial" },
+  { "slug": "religioso", "name": "Celebraciones de fe" },
+  { "slug": "decoracion", "name": "Decoración" }
+]

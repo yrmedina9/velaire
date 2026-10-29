@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "bouquets",
+    "name": "Bouquets y ramos",
+    "shortName": "Bouquets",
+    "tagline": "Flores que nunca se marchitan",
+    "description": "Rosas, peonías y tulipanes en vela aromatizada, armados a mano en ramos, macetas y cajas. Elige tus colores y aroma.",
+    "image": "/images/products/bouquet-rosa-dulce-1.webp",
+    "order": 1
+  },
+  {
+    "slug": "detalles",
+    "name": "Cajitas y detalles",
+    "shortName": "Detalles",
+    "tagline": "Listos para regalar",
+    "description": "Cajitas de velas, peonías en caja e iniciales personalizadas con rosas y chocolates.",
+    "image": "/images/products/inicial-rosas-chocolates-1.webp",
+    "order": 2
+  },
+  {
+    "slug": "recordatorios",
+    "name": "Recordatorios",
+    "shortName": "Recordatorios",
+    "tagline": "Para tus eventos",
+    "description": "Velas para primeras comuniones, bautizos, baby shower, eventos empresariales y fiestas tradicionales del Huila.",
+    "image": "/images/products/vela-bambuquera-2.webp",
+    "order": 3
+  },
+  {
+    "slug": "navidad",
+    "name": "Navidad y velitas",
+    "shortName": "Navidad",
+    "tagline": "La magia de diciembre",
+    "description": "Renos, arbolitos, pesebres y cajas de velitas de deseos para la noche más mágica del año.",
+    "image": "/images/products/reno-navideno-1.webp",
+    "order": 4
+  },
+  {
+    "slug": "decorativas",
+    "name": "Velas decorativas",
+    "shortName": "Decorativas",
+    "tagline": "Aroma y estilo",
+    "description": "Piezas aromatizadas para decorar tu espacio con un toque moderno.",
+    "image": "/images/products/vela-burbuja-1.webp",
+    "order": 5
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "zones": [
+    {
+      "id": "neiva",
+      "title": "Neiva",
+      "description": "Entrega a domicilio dentro de la ciudad. Coordinamos contigo el día y la franja horaria por WhatsApp.",
+      "time": "1 a 2 días hábiles",
+      "cost": "Según el sector"
+    },
+    {
+      "id": "huila",
+      "title": "Municipios del Huila",
+      "description": "Envío por transportadora a los municipios del departamento, con número de guía.",
+      "time": "2 a 3 días hábiles",
+      "cost": "Según transportadora"
+    },
+    {
+      "id": "nacional",
+      "title": "Resto de Colombia",
+      "description": "Envíos nacionales por transportadora con número de guía para que sigas tu pedido.",
+      "time": "3 a 6 días hábiles",
+      "cost": "Según destino y tamaño"
+    }
+  ],
+  "production": {
+    "title": "Tiempo de elaboración",
+    "text": "Cada pieza se elabora a mano. Los pedidos personalizados se preparan antes del despacho, por eso te recomendamos reservar con anticipación, sobre todo en fechas especiales como Amor y Amistad, Día de la Madre y Navidad.",
+    "estimate": "2 a 4 días hábiles"
+  },
+  "packaging": [
+    "Papel coreano, cajas con visor o bases decorativas según el diseño",
+    "Lazos de satín, mariposas doradas y flor de nube natural",
+    "Tarjeta con tu mensaje personalizado",
+    "Protección extra para envíos nacionales"
+  ],
+  "payment": {
+    "text": "Al confirmar tu pedido por WhatsApp te compartimos el valor total, el costo de envío y los medios de pago disponibles.",
+    "methods": ["Transferencia bancaria", "Billeteras digitales", "Pago en efectivo en entregas locales"]
+  },
+  "steps": [
+    {
+      "title": "Elige tu diseño",
+      "text": "Explora el catálogo y agrega a tu pedido los detalles que te enamoren."
+    },
+    {
+      "title": "Personaliza",
+      "text": "Cuéntanos colores, aroma, mensaje de la tarjeta o la inicial que quieres."
+    },
+    {
+      "title": "Confirma por WhatsApp",
+      "text": "Te enviamos la cotización con el envío y separas tu pedido."
+    },
+    {
+      "title": "Lo hacemos a mano",
+      "text": "Elaboramos cada flor con amor y la empacamos lista para regalar."
+    },
+    {
+      "title": "Recibe y enciende",
+      "text": "Despachamos a Neiva o a cualquier ciudad de Colombia."
+    }
+  ]
+}

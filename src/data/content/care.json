@@ -1,0 +1,16 @@
+{
+  "steps": [
+    { "title": "Retira la flor", "text": "Separa con cuidado la flor del bouquet." },
+    {
+      "title": "Ubícala en lugar seguro",
+      "text": "Colócala sobre una superficie resistente al calor, como un plato de cerámica o una bandeja."
+    },
+    { "title": "Corta el pabilo", "text": "Recórtalo si es necesario para una llama pareja." },
+    { "title": "Enciéndela", "text": "Y disfruta su aroma." }
+  ],
+  "tips": [
+    "Nunca dejes una vela encendida sin supervisión.",
+    "Mantenla lejos de niños, mascotas y materiales inflamables.",
+    "Guárdala en un lugar fresco, lejos del sol directo."
+  ]
+}
