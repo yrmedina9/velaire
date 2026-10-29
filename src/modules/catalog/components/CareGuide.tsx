@@ -8,13 +8,14 @@ const icons = [Hand, UtensilsCrossed, Scissors, Flame];
 /** Guía de encendido del bouquet, basada en la tarjeta que entrega Velaire. */
 export function CareGuide({ guide }: { guide: CareGuideData }) {
   return (
-    <section id="cuidados" className="scroll-mt-24 py-20 sm:py-28">
+    <section id="cuidados" className="scroll-mt-24 py-14 sm:py-28">
       <Container>
         <div className="grid items-center gap-12 lg:grid-cols-[1fr_1.3fr]">
           <div>
             <SectionHeading
               align="left"
               eyebrow="Guía de encendido"
+              icon={<Flame />}
               title={
                 <>
                   Enciende tu <em>bouquet</em> de velas
@@ -38,7 +39,7 @@ export function CareGuide({ guide }: { guide: CareGuideData }) {
               return (
                 <li
                   key={step.title}
-                  className="reveal relative overflow-hidden rounded-[1.75rem] bg-white/80 p-6 ring-1 ring-blush-200"
+                  className="reveal relative overflow-hidden rounded-[1.6rem] bg-white p-5 shadow-card ring-1 ring-cacao-900/[0.04] sm:p-6"
                 >
                   <span className="absolute -top-4 -right-1 font-display text-8xl text-blush-200 select-none" aria-hidden="true">
                     {index + 1}

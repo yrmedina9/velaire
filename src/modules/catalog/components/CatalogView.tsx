@@ -1,8 +1,10 @@
+import { LayoutGrid } from "lucide-react";
 import { Suspense } from "react";
 import { Container } from "@/components/ui/Container";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { getCategories, getOccasions, getProducts } from "../catalog.service";
 import type { CategoryWithCount } from "../domain/catalog.types";
+import { CategoryIcon } from "../lib/catalog-icons";
 import { CatalogExplorer } from "./CatalogExplorer";
 import { CategoryTabs } from "./CategoryTabs";
 import { ProductGrid } from "./ProductGrid";
@@ -20,6 +22,7 @@ export async function CatalogView({ category }: { category?: CategoryWithCount }
   return (
     <>
       <PageHeader
+        icon={category ? <CategoryIcon slug={category.slug} /> : <LayoutGrid />}
         breadcrumbs={[
           { label: "Inicio", href: "/" },
           ...(category ? [{ label: "Catálogo", href: "/catalogo" }, { label: category.name }] : [{ label: "Catálogo" }]),
@@ -38,11 +41,11 @@ export async function CatalogView({ category }: { category?: CategoryWithCount }
           "Flores en vela que nunca se marchitan, recordatorios y detalles personalizados. Agrega tus favoritos al pedido y te enviamos la cotización por WhatsApp."
         }
       />
-      <Container className="py-10 sm:py-14">
+      <Container className="pt-6 pb-14 md:pt-10">
         <CategoryTabs categories={categories} active={category?.slug} total={allProducts.length} />
-        <div className="mt-10">
+        <div className="mt-4 md:mt-8">
           <Suspense
-            fallback={<ProductGrid products={products} categoryNames={categoryNames} className="mt-24" />}
+            fallback={<ProductGrid products={products} categoryNames={categoryNames} className="mt-20" />}
           >
             <CatalogExplorer products={products} occasions={occasions} categoryNames={categoryNames} />
           </Suspense>

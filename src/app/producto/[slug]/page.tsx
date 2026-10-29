@@ -12,6 +12,7 @@ import {
   getRelatedProducts,
 } from "@/modules/catalog/catalog.service";
 import { CareGuide } from "@/modules/catalog/components/CareGuide";
+import { ProductActionBar } from "@/modules/catalog/components/ProductActionBar";
 import { ProductGallery } from "@/modules/catalog/components/ProductGallery";
 import { ProductGrid } from "@/modules/catalog/components/ProductGrid";
 import { ProductInfo } from "@/modules/catalog/components/ProductInfo";
@@ -29,14 +30,14 @@ export async function generateMetadata({ params }: PageProps<"/producto/[slug]">
   const { slug } = await params;
   const product = await getProductBySlug(slug);
   if (!product) notFound();
-  const [cover] = product.images;
+  // La imagen para redes la genera ./opengraph-image.tsx
   return {
     title: product.name,
     description: product.shortDescription,
     openGraph: {
-      title: product.name,
+      title: `${product.name} · Velaire`,
       description: product.shortDescription,
-      images: [{ url: cover.src, width: cover.width, height: cover.height, alt: cover.alt }],
+      url: `/producto/${product.slug}`,
     },
   };
 }
@@ -71,27 +72,27 @@ async function ProductContent({ params }: { params: Params }) {
 
   return (
     <>
-      <Container className="pt-8 pb-16 sm:pb-24">
-        <Breadcrumbs
-          items={[
-            { label: "Inicio", href: "/" },
-            { label: "Catálogo", href: "/catalogo" },
-            ...(category ? [{ label: category.shortName, href: `/catalogo/${category.slug}` }] : []),
-            { label: product.name },
-          ]}
-        />
-        <div className="mt-8 grid gap-10 lg:grid-cols-2 lg:gap-16">
-          <ProductGallery images={product.images} name={product.name} />
-          <ProductInfo
-            product={product}
-            category={category}
-            occasions={occasions}
-            productionEstimate={shipping.production.estimate}
+      <Container className="pb-14 md:pt-8 md:pb-24">
+        <div className="hidden md:block">
+          <Breadcrumbs
+            items={[
+              { label: "Inicio", href: "/" },
+              { label: "Catálogo", href: "/catalogo" },
+              ...(category ? [{ label: category.shortName, href: `/catalogo/${category.slug}` }] : []),
+              { label: product.name },
+            ]}
           />
+        </div>
+        <div className="grid md:mt-8 lg:grid-cols-2 lg:gap-16">
+          <ProductGallery images={product.images} name={product.name} />
+          {/* En móvil la información sube como una hoja sobre la foto */}
+          <div className="relative z-10 -mx-4 -mt-8 rounded-t-[2rem] bg-blush-50 px-4 pt-6 shadow-[0_-16px_32px_-24px_rgb(58_38_33/0.45)] sm:-mx-6 sm:px-6 md:mx-0 md:mt-10 md:rounded-none md:bg-transparent md:px-0 md:pt-0 md:shadow-none lg:mt-0">
+            <ProductInfo product={product} category={category} occasions={occasions} shipping={shipping} />
+          </div>
         </div>
       </Container>
 
-      <section className="bg-white/60 py-20 sm:py-24">
+      <section className="bg-white/60 py-14 sm:py-24">
         <Container>
           <SectionHeading
             eyebrow="También te puede gustar"
@@ -101,9 +102,11 @@ async function ProductContent({ params }: { params: Params }) {
               </>
             }
           />
-          <ProductGrid products={related} categoryNames={categoryNames} className="mt-12" />
+          <ProductGrid products={related} categoryNames={categoryNames} layout="rail" className="mt-8 sm:mt-12" />
         </Container>
       </section>
+
+      <ProductActionBar product={product} />
     </>
   );
 }

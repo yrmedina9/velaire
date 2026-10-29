@@ -7,9 +7,9 @@ import { whatsappLink } from "@/lib/whatsapp";
 
 export function CtaSection() {
   return (
-    <section className="pb-20 sm:pb-28">
+    <section className="pb-14 sm:pb-28">
       <Container>
-        <div className="bg-grain relative overflow-hidden rounded-[2.5rem] bg-clay-500 px-6 py-16 text-center text-white sm:px-12 sm:py-20">
+        <div className="grain relative overflow-hidden rounded-[2rem] bg-linear-to-br from-clay-400 via-clay-500 to-clay-700 px-6 py-14 text-center text-white shadow-float ring-1 ring-white/10 sm:rounded-[2.5rem] sm:px-12 sm:py-20">
           <SunRays animated className="mx-auto w-28 text-gold-300" />
           <h2 className="mx-auto mt-4 max-w-2xl font-display text-4xl leading-[1.05] font-medium text-balance sm:text-6xl">
             ¿Tienes una idea? La hacemos <em className="text-gold-300">realidad</em>
@@ -21,7 +21,7 @@ export function CtaSection() {
             href={whatsappLink("¡Hola Velaire! 🕯️ Tengo una idea para un detalle personalizado.")}
             variant="light"
             size="lg"
-            className="mt-8"
+            className="tap mt-8"
           >
             <WhatsAppIcon className="size-5 text-whatsapp-dark" /> Escribir al {siteConfig.contact.phoneDisplay}
           </ExternalButton>

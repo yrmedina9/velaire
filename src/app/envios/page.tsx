@@ -1,3 +1,4 @@
+import { CircleHelp, Clock, ListChecks, Truck } from "lucide-react";
 import type { Metadata } from "next";
 import { WhatsAppIcon } from "@/components/ui/BrandIcons";
 import { ExternalButton } from "@/components/ui/Button";
@@ -23,6 +24,7 @@ export default async function ShippingPage() {
   return (
     <>
       <PageHeader
+        icon={<Truck />}
         breadcrumbs={[{ label: "Inicio", href: "/" }, { label: "Envíos y pagos" }]}
         title={
           <>
@@ -32,10 +34,11 @@ export default async function ShippingPage() {
         description="Hacemos cada detalle a mano en Neiva y lo enviamos con todo el cuidado a cualquier ciudad del país."
       />
 
-      <section className="py-16 sm:py-24">
+      <section className="py-12 sm:py-24">
         <Container>
           <SectionHeading
             eyebrow="Tiempos de entrega"
+            icon={<Clock />}
             title={
               <>
                 ¿Cuándo llega mi <em>pedido</em>?
@@ -43,40 +46,42 @@ export default async function ShippingPage() {
             }
             description="Tiempos estimados después de la elaboración y despacho. Te confirmamos el valor exacto del envío al cotizar."
           />
-          <div className="mt-12">
+          <div className="mt-8 sm:mt-12">
             <ShippingZones zones={shipping.zones} />
           </div>
         </Container>
       </section>
 
-      <section className="bg-white/60 py-16 sm:py-24">
+      <section className="bg-white/60 py-12 sm:py-24">
         <Container>
           <PaymentAndPackaging info={shipping} />
         </Container>
       </section>
 
-      <section className="py-16 sm:py-24">
+      <section className="py-12 sm:py-24">
         <Container>
           <SectionHeading
             eyebrow="Paso a paso"
+            icon={<ListChecks />}
             title={
               <>
                 Cómo hacer tu <em>pedido</em>
               </>
             }
           />
-          <div className="mt-14">
+          <div className="mt-10 sm:mt-14">
             <OrderSteps steps={shipping.steps} />
           </div>
         </Container>
       </section>
 
-      <section id="preguntas" className="scroll-mt-24 bg-blush-200/60 py-16 sm:py-24">
+      <section id="preguntas" className="scroll-mt-24 bg-blush-200/60 py-12 sm:py-24">
         <Container className="grid gap-12 lg:grid-cols-[1fr_1.6fr]">
           <div>
             <SectionHeading
               align="left"
               eyebrow="Preguntas frecuentes"
+              icon={<CircleHelp />}
               title={
                 <>
                   Resolvemos tus <em>dudas</em>
@@ -87,7 +92,7 @@ export default async function ShippingPage() {
             <ExternalButton
               href={whatsappLink("¡Hola Velaire! 🕯️ Tengo una pregunta sobre envíos.")}
               variant="whatsapp"
-              className="mt-8"
+              className="tap mt-8"
             >
               <WhatsAppIcon className="size-4.5" /> Preguntar por WhatsApp
             </ExternalButton>

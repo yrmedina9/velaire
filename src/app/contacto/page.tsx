@@ -1,3 +1,4 @@
+import { MessageCircleHeart, Send } from "lucide-react";
 import type { Metadata } from "next";
 import Image from "next/image";
 import { Container } from "@/components/ui/Container";
@@ -18,6 +19,7 @@ export default async function ContactPage() {
   return (
     <>
       <PageHeader
+        icon={<MessageCircleHeart />}
         breadcrumbs={[{ label: "Inicio", href: "/" }, { label: "Contacto" }]}
         title={
           <>
@@ -27,7 +29,7 @@ export default async function ContactPage() {
         description="Cuéntanos qué quieres regalar o celebrar y te ayudamos a crear algo único con tus colores, aromas y mensaje."
       />
 
-      <section className="py-16 sm:py-24">
+      <section className="py-10 sm:py-24">
         <Container className="grid gap-12 lg:grid-cols-[1fr_1.1fr]">
           <div className="space-y-8">
             <ContactChannels />
@@ -42,7 +44,12 @@ export default async function ContactPage() {
             </div>
           </div>
           <div>
-            <h2 className="font-display text-4xl">Escríbenos</h2>
+            <h2 className="flex items-center gap-3 font-display text-4xl">
+              <span className="grid size-11 place-items-center rounded-2xl bg-clay-500 text-white shadow-glow">
+                <Send className="size-5" strokeWidth={1.8} />
+              </span>
+              Escríbenos
+            </h2>
             <p className="mt-2 mb-6 text-cacao-700">
               Completa el formulario y lo enviamos directo a nuestro WhatsApp.
             </p>

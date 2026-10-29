@@ -3,10 +3,14 @@ import { Cormorant_Garamond, Jost, Marcellus } from "next/font/google";
 import { AnnouncementBar } from "@/components/layout/AnnouncementBar";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
+import { MobileTabBar } from "@/components/layout/MobileTabBar";
 import { WhatsAppFloat } from "@/components/layout/WhatsAppFloat";
+import { Toaster } from "@/components/ui/Toaster";
 import { siteConfig } from "@/config/site";
-import { CartDrawer } from "@/modules/cart/components/CartDrawer";
+import { CartSheet } from "@/modules/cart/components/CartSheet";
 import { CartProvider } from "@/modules/cart/context/CartProvider";
+import { getFeaturedProducts } from "@/modules/catalog/catalog.service";
+import { getShippingInfo } from "@/modules/content/content.service";
 import "./globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -29,6 +33,7 @@ const marcellus = Marcellus({
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
+  applicationName: siteConfig.name,
   title: {
     default: `${siteConfig.name} · Bouquets de flores en vela y velas artesanales`,
     template: `%s · ${siteConfig.name}`,
@@ -44,23 +49,33 @@ export const metadata: Metadata = {
     "velas Huila",
     "detalles personalizados",
   ],
+  // La imagen la generan los archivos opengraph-image de cada segmento.
   openGraph: {
     type: "website",
     locale: siteConfig.locale,
     siteName: siteConfig.name,
     title: `${siteConfig.name} · ${siteConfig.tagline}`,
     description: siteConfig.description,
-    images: [{ url: "/images/products/bouquet-jardin-pastel-1.webp", width: 1200, height: 1253 }],
   },
+  twitter: { card: "summary_large_image" },
+  appleWebApp: { capable: true, title: siteConfig.name, statusBarStyle: "default" },
+  formatDetection: { telephone: false },
 };
 
 export const viewport: Viewport = {
   themeColor: "#ece1df",
+  viewportFit: "cover",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default async function RootLayout({ children }: LayoutProps<"/">) {
+  const [suggestions, shipping] = await Promise.all([getFeaturedProducts(6), getShippingInfo()]);
+
   return (
-    <html lang="es-CO" data-scroll-behavior="smooth" className={`${cormorant.variable} ${jost.variable} ${marcellus.variable} h-full antialiased`}>
+    <html
+      lang="es-CO"
+      data-scroll-behavior="smooth"
+      className={`${cormorant.variable} ${jost.variable} ${marcellus.variable} h-full antialiased`}
+    >
       <body className="flex min-h-full flex-col">
         <CartProvider>
           <a
@@ -75,8 +90,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             {children}
           </main>
           <Footer />
+          <MobileTabBar />
           <WhatsAppFloat />
-          <CartDrawer />
+          <CartSheet
+            suggestions={suggestions.map(({ slug, name, price, images }) => ({ slug, name, price, images }))}
+            productionEstimate={shipping.production.estimate}
+          />
+          <Toaster />
         </CartProvider>
       </body>
     </html>

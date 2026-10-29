@@ -1,3 +1,4 @@
+import { siteConfig } from "@/config/site";
 import { formatPrice } from "@/lib/format";
 import type { CartItem, CustomerDetails } from "../domain/cart.types";
 
@@ -15,14 +16,20 @@ export function buildOrderMessage(items: CartItem[], customer: CustomerDetails) 
     lines.push("", `Subtotal: ${formatPrice(total)} + envío`);
   }
 
+  const city = customer.city.trim();
+  const delivery =
+    customer.delivery === "neiva"
+      ? `Entrega a domicilio en ${siteConfig.contact.city}`
+      : `Envío nacional${city ? ` a ${city}` : ""}`;
+
   const details = [
     customer.name.trim() && `Nombre: ${customer.name.trim()}`,
-    customer.city.trim() && `Ciudad de entrega: ${customer.city.trim()}`,
+    `Entrega: ${delivery}`,
+    customer.delivery === "neiva" && city && `Barrio o dirección: ${city}`,
     customer.notes.trim() && `Personalización: ${customer.notes.trim()}`,
   ].filter(Boolean) as string[];
-  if (details.length > 0) lines.push("", ...details);
+  lines.push("", ...details);
 
   lines.push("", "¿Me confirmas disponibilidad, valor total y envío? ¡Gracias!");
-
   return lines.join("\n");
 }

@@ -1,4 +1,4 @@
-import { Flower2, Gift, HandHeart, Palette } from "lucide-react";
+import { Check, Flower2, Gift, HandHeart, Palette, Store } from "lucide-react";
 import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
@@ -13,7 +13,7 @@ const values = [
 
 export function AboutSection() {
   return (
-    <section id="nosotros" className="scroll-mt-24 overflow-hidden py-20 sm:py-28">
+    <section id="nosotros" className="scroll-mt-24 overflow-hidden py-14 sm:py-28">
       <Container className="grid items-center gap-16 lg:grid-cols-2">
         <div className="relative mx-auto w-full max-w-lg">
           <div className="relative aspect-[4/5] w-[78%] overflow-hidden rounded-t-full rounded-b-[2.5rem]">
@@ -48,6 +48,7 @@ export function AboutSection() {
           <SectionHeading
             align="left"
             eyebrow="Sobre Velaire"
+            icon={<Store />}
             title={
               <>
                 Detalles que <em>iluminan</em> espacios y corazones
@@ -57,7 +58,8 @@ export function AboutSection() {
           />
           <ul className="mt-6 flex flex-wrap gap-2">
             {siteConfig.services.map((service) => (
-              <li key={service} className="rounded-full bg-white/80 px-3.5 py-1.5 text-sm text-cacao-700 ring-1 ring-blush-200">
+              <li key={service} className="inline-flex items-center gap-1.5 rounded-full bg-white px-3.5 py-1.5 text-sm text-cacao-700 shadow-hairline">
+                <Check className="size-3.5 text-clay-500" strokeWidth={2.2} />
                 {service}
               </li>
             ))}
@@ -65,7 +67,7 @@ export function AboutSection() {
           <ul className="mt-10 grid gap-6 sm:grid-cols-2">
             {values.map(({ icon: Icon, title, text }) => (
               <li key={title} className="flex gap-4">
-                <span className="grid size-12 shrink-0 place-items-center rounded-2xl bg-blush-200 text-clay-600">
+                <span className="grid size-12 shrink-0 place-items-center rounded-2xl bg-white text-clay-600 shadow-soft">
                   <Icon className="size-5.5" strokeWidth={1.6} />
                 </span>
                 <div>

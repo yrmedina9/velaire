@@ -19,7 +19,12 @@ export async function generateMetadata({ params }: PageProps<"/catalogo/[categor
   return {
     title: category.name,
     description: category.description,
-    openGraph: { images: [category.image] },
+    // La imagen para redes la genera ./opengraph-image.tsx
+    openGraph: {
+      title: `${category.name} · Velaire`,
+      description: category.description,
+      url: `/catalogo/${category.slug}`,
+    },
   };
 }
 

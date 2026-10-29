@@ -5,6 +5,7 @@ recordatorios y colección de Navidad. Catálogo con pedido por WhatsApp y enví
 
 - **Stack:** Next.js 16.4 (App Router, Cache Components, Turbopack) · React 19 · Tailwind CSS 4 · TypeScript
 - **Iconos:** lucide-react · **Fuentes:** Marcellus (logo), Cormorant Garamond (títulos), Jost (texto)
+- **Otros:** tailwind-merge (clases), sharp (imágenes para redes)
 - **Datos:** JSON local en `src/data` mientras se construye el backend
 
 ## Cómo correrlo
@@ -15,12 +16,13 @@ Requiere Node 20.9 o superior (el proyecto incluye `.nvmrc` con Node 22).
 nvm use
 npm install
 npm run dev        # http://localhost:3000
-npm run build      # build de producción (genera las 56 páginas estáticas)
+npm run build      # build de producción (páginas e imágenes para redes estáticas)
 npm run lint
 ```
 
-Copia `.env.example` a `.env.local` y define `NEXT_PUBLIC_SITE_URL` con el dominio final
-(se usa en metadatos, Open Graph y `sitemap.xml`).
+La URL pública se toma de `NEXT_PUBLIC_SITE_URL`; si no existe, en Vercel se usa
+automáticamente el dominio de producción del proyecto. Cuando tengas dominio propio, defínelo en
+`.env.local` (ver `.env.example`) y en las variables de entorno de Vercel.
 
 ## Arquitectura
 
@@ -34,7 +36,8 @@ src/
 │   ├── catalogo/             # /catalogo y /catalogo/[categoria]
 │   ├── producto/[slug]/      # Ficha de producto
 │   ├── envios/  contacto/    # Envíos y pagos · Contacto
-│   └── sitemap.ts robots.ts icon.svg not-found.tsx
+│   ├── opengraph-image.tsx   # Imagen para WhatsApp y redes (también por categoría y producto)
+│   └── manifest.ts sitemap.ts robots.ts icon.svg apple-icon.png not-found.tsx
 ├── config/                   # Datos de marca, contacto y navegación (site.ts, navigation.ts)
 ├── data/                     # Fuente de datos temporal (JSON)
 │   ├── catalog/              # products.json, categories.json, occasions.json
@@ -42,16 +45,17 @@ src/
 ├── lib/                      # Utilidades puras (cn, formatPrice, enlaces de WhatsApp)
 ├── components/               # UI compartida sin lógica de negocio
 │   ├── brand/                # Logo y motivo de rayos de sol
-│   ├── layout/               # Header, Footer, barra de anuncio, botón flotante de WhatsApp
-│   ├── ui/                   # Button, Badge, Container, SectionHeading, PageHeader, Breadcrumbs
+│   ├── layout/               # Header, barra de pestañas móvil, Footer, anuncios, WhatsApp flotante
+│   ├── ui/                   # Button, Sheet (hoja deslizable), Toaster, SectionHeading, PageHeader…
 │   └── seo/                  # JSON-LD
 └── modules/                  # Módulos de negocio
-    ├── catalog/              # domain/ (tipos) · repository/ (datos) · catalog.service.ts · components/
-    ├── cart/                 # Pedido: store en localStorage, contexto, cajón y mensaje de WhatsApp
+    ├── catalog/              # domain/ · repository/ · catalog.service.ts · lib/ (íconos, colores) · components/
+    ├── cart/                 # Pedido: store en localStorage, contexto, hoja del carrito y mensaje de WhatsApp
     ├── content/              # Servicio de contenido informativo (envíos, FAQ, cuidados)
     ├── shipping/             # Componentes de envíos, pasos del pedido y preguntas frecuentes
     ├── contact/              # Canales y formulario de contacto
-    └── home/                 # Secciones de la página de inicio
+    ├── home/                 # Secciones de la página de inicio
+    └── seo/og/               # Plantillas y utilidades de las imágenes para redes
 ```
 
 **Flujo de datos:** `página → service → repository → JSON`.
@@ -64,6 +68,30 @@ src/
 3. Haz lo mismo con `modules/content/content.service.ts`.
 
 Las páginas y componentes no necesitan cambios.
+
+## Experiencia tipo app
+
+- **Móvil:** barra de pestañas inferior flotante con el pedido al centro, encabezado compacto con
+  "atrás" en subpáginas, catálogo con categorías en círculos tipo historias, búsqueda fija y
+  filtros en hoja deslizable, galería de producto a pantalla completa y barra de compra fija.
+- **Pedido:** hoja que sube desde abajo en móvil (se cierra arrastrando) y panel lateral en
+  escritorio; notificación al agregar productos; entrega en Neiva o envío nacional.
+- **Instalable (PWA):** desde el navegador del celular se puede "Agregar a pantalla de inicio" y
+  abre a pantalla completa con el ícono de Velaire (`app/manifest.ts`, `public/icons/`).
+- **Sistema visual:** tokens en `src/app/globals.css` (paleta, sombras en capas, vidrio esmerilado,
+  curvas de animación tipo iOS y utilidades `glass`, `surface`, `tap`).
+
+## Vista previa al compartir
+
+Al compartir un enlace en WhatsApp, Facebook o X aparece una imagen diseñada con la marca:
+
+- `/` → imagen general con el bouquet destacado.
+- `/catalogo/[categoria]` → la colección con tres fotos.
+- `/producto/[slug]` → la foto del producto, su nombre, descripción y colores.
+
+Se generan en el build con `next/og` y se convierten a JPEG (~80 KB) para que WhatsApp las muestre.
+Las fuentes TTF están en `src/assets/fonts/` (licencia SIL Open Font License). WhatsApp guarda en
+caché las vistas previas: si un enlace ya se compartió antes del cambio, puede tardar en actualizarse.
 
 ## Catálogo
 

@@ -1,6 +1,7 @@
 import { WhatsAppIcon } from "@/components/ui/BrandIcons";
 import { whatsappLink } from "@/lib/whatsapp";
 
+/** Botón flotante de WhatsApp para tablet y escritorio (en móvil está la barra inferior). */
 export function WhatsAppFloat() {
   return (
     <a
@@ -8,11 +9,11 @@ export function WhatsAppFloat() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Escríbenos por WhatsApp"
-      className="group fixed right-4 bottom-4 z-30 flex items-center gap-2 rounded-full bg-whatsapp-dark p-3.5 text-white shadow-lg shadow-cacao-900/25 transition hover:scale-105 sm:right-6 sm:bottom-6"
+      className="group fixed right-6 bottom-6 z-30 hidden items-center gap-2 rounded-full bg-whatsapp-dark p-3.5 text-white shadow-float ring-4 ring-white/60 transition duration-300 hover:-translate-y-0.5 md:flex"
     >
-      <span className="absolute inset-0 -z-10 animate-ping rounded-full bg-whatsapp/40 [animation-duration:2.5s]" />
-      <WhatsAppIcon className="size-7" />
-      <span className="hidden max-w-0 overflow-hidden text-sm font-medium whitespace-nowrap transition-all duration-300 group-hover:max-w-40 group-hover:pr-1 sm:inline">
+      <span className="absolute inset-0 -z-10 animate-ping rounded-full bg-whatsapp/35 [animation-duration:2.6s]" />
+      <WhatsAppIcon className="size-6.5" />
+      <span className="max-w-0 overflow-hidden text-sm font-medium whitespace-nowrap transition-all duration-500 ease-(--ease-ios) group-hover:max-w-40 group-hover:pr-1">
         ¿Te ayudamos?
       </span>
     </a>

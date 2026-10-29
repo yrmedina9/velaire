@@ -6,8 +6,11 @@ export interface CartItem {
   quantity: number;
 }
 
+export type DeliveryMode = "neiva" | "nacional";
+
 export interface CustomerDetails {
   name: string;
   city: string;
   notes: string;
+  delivery: DeliveryMode;
 }

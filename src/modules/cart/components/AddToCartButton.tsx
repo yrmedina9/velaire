@@ -23,14 +23,13 @@ export function AddToCartButton({
   label = "Agregar al pedido",
   compact = false,
 }: AddToCartButtonProps) {
-  const { add, open } = useCart();
+  const { add } = useCart();
   const [added, setAdded] = useState(false);
 
   function handleClick() {
     add({ slug: product.slug, name: product.name, price: product.price, image: product.images[0].src });
     setAdded(true);
-    open();
-    window.setTimeout(() => setAdded(false), 1800);
+    window.setTimeout(() => setAdded(false), 1600);
   }
 
   if (compact) {
@@ -40,18 +39,27 @@ export function AddToCartButton({
         onClick={handleClick}
         aria-label={`Agregar ${product.name} al pedido`}
         className={cn(
-          "grid size-11 place-items-center rounded-full bg-white/95 text-clay-600 shadow-md shadow-cacao-900/10 backdrop-blur transition hover:bg-clay-500 hover:text-white",
+          "tap grid size-10 place-items-center rounded-full shadow-soft ring-1 ring-cacao-900/5 backdrop-blur",
+          added ? "bg-clay-500 text-white" : "bg-white/90 text-clay-600 hover:bg-clay-500 hover:text-white",
           className,
         )}
       >
-        {added ? <Check className="size-5" /> : <Plus className="size-5" />}
+        {added ? (
+          <Check key="check" className="size-4.5 animate-pop" strokeWidth={2.4} />
+        ) : (
+          <Plus className="size-5" strokeWidth={2} />
+        )}
       </button>
     );
   }
 
   return (
-    <button type="button" onClick={handleClick} className={buttonStyles({ size, className })}>
-      {added ? <Check className="size-4" /> : <ShoppingBag className="size-4" strokeWidth={1.8} />}
+    <button type="button" onClick={handleClick} className={buttonStyles({ size, className: cn("tap", className) })}>
+      {added ? (
+        <Check key="check" className="size-4.5 animate-pop" strokeWidth={2.4} />
+      ) : (
+        <ShoppingBag className="size-4.5" strokeWidth={1.8} />
+      )}
       {added ? "¡Agregado!" : label}
     </button>
   );
