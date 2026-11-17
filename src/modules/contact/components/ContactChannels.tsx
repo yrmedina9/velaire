@@ -1,6 +1,6 @@
 import { MapPin, Truck } from "lucide-react";
 import type { ReactNode } from "react";
-import { InstagramIcon, WhatsAppIcon } from "@/components/ui/BrandIcons";
+import { FacebookIcon, InstagramIcon, TikTokIcon, WhatsAppIcon } from "@/components/ui/BrandIcons";
 import { siteConfig } from "@/config/site";
 import { whatsappLink } from "@/lib/whatsapp";
 
@@ -28,6 +28,20 @@ export function ContactChannels() {
       value: `@${contact.instagramHandle}`,
       detail: "Mira nuestras últimas creaciones",
       href: contact.instagramUrl,
+    },
+    {
+      icon: <FacebookIcon className="size-5.5" />,
+      label: "Facebook",
+      value: contact.facebookName,
+      detail: "Síguenos y comparte tus favoritos",
+      href: contact.facebookUrl,
+    },
+    {
+      icon: <TikTokIcon className="size-5" />,
+      label: "TikTok",
+      value: `@${contact.tiktokHandle}`,
+      detail: "Videos de cómo hacemos tus velas",
+      href: contact.tiktokUrl,
     },
     {
       icon: <MapPin className="size-5.5" strokeWidth={1.6} />,

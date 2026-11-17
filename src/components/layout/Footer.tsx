@@ -1,7 +1,7 @@
 import { ArrowUpRight, CircleHelp, Flame, MapPin, MessageCircleHeart, Phone, Truck, Wallet } from "lucide-react";
 import Link from "next/link";
 import { Logo } from "@/components/brand/Logo";
-import { InstagramIcon, WhatsAppIcon } from "@/components/ui/BrandIcons";
+import { FacebookIcon, InstagramIcon, TikTokIcon, WhatsAppIcon } from "@/components/ui/BrandIcons";
 import { Container } from "@/components/ui/Container";
 import { siteConfig } from "@/config/site";
 import { whatsappLink } from "@/lib/whatsapp";
@@ -14,6 +14,13 @@ const helpLinks = [
   { href: "/envios#preguntas", label: "Preguntas frecuentes", icon: CircleHelp },
   { href: "/#cuidados", label: "Cuidado de tus velas", icon: Flame },
   { href: "/contacto", label: "Contacto", icon: MessageCircleHeart },
+];
+
+const socialLinks = [
+  { label: "Instagram", href: siteConfig.contact.instagramUrl, icon: InstagramIcon, hover: "hover:bg-clay-500" },
+  { label: "Facebook", href: siteConfig.contact.facebookUrl, icon: FacebookIcon, hover: "hover:bg-[#1877f2]" },
+  { label: "TikTok", href: siteConfig.contact.tiktokUrl, icon: TikTokIcon, hover: "hover:bg-black" },
+  { label: "WhatsApp", href: whatsappLink(), icon: WhatsAppIcon, hover: "hover:bg-whatsapp-dark" },
 ];
 
 const linkClass = "group flex items-center gap-2.5 py-1 text-blush-200/75 transition hover:text-gold-300";
@@ -56,26 +63,21 @@ export async function Footer() {
               Velas artesanales hechas a mano en {contact.city}, {contact.region}. Flores que no se marchitan y
               detalles que iluminan momentos especiales.
             </p>
-            <div className="flex gap-2">
-              <a
-                href={contact.instagramUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Instagram"
-                className="tap grid size-10 place-items-center rounded-full bg-white/8 ring-1 ring-white/10 hover:bg-clay-500"
-              >
-                <InstagramIcon className="size-4.5" />
-              </a>
-              <a
-                href={whatsappLink()}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="WhatsApp"
-                className="tap grid size-10 place-items-center rounded-full bg-white/8 ring-1 ring-white/10 hover:bg-whatsapp-dark"
-              >
-                <WhatsAppIcon className="size-4.5" />
-              </a>
-            </div>
+            <ul className="flex gap-2" aria-label="Redes sociales">
+              {socialLinks.map(({ label, href, icon: Icon, hover }) => (
+                <li key={label}>
+                  <a
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={label}
+                    className={`tap grid size-10 place-items-center rounded-full bg-white/8 ring-1 ring-white/10 ${hover}`}
+                  >
+                    <Icon className="size-4.5" />
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
 
           <nav aria-label="Catálogo">
@@ -118,6 +120,18 @@ export async function Footer() {
               <li>
                 <a href={contact.instagramUrl} target="_blank" rel="noopener noreferrer" className={linkClass}>
                   <InstagramIcon className={iconClass} /> @{contact.instagramHandle}
+                  <ArrowUpRight className="size-3.5 opacity-0 transition group-hover:opacity-100" />
+                </a>
+              </li>
+              <li>
+                <a href={contact.facebookUrl} target="_blank" rel="noopener noreferrer" className={linkClass}>
+                  <FacebookIcon className={iconClass} /> {contact.facebookName}
+                  <ArrowUpRight className="size-3.5 opacity-0 transition group-hover:opacity-100" />
+                </a>
+              </li>
+              <li>
+                <a href={contact.tiktokUrl} target="_blank" rel="noopener noreferrer" className={linkClass}>
+                  <TikTokIcon className={iconClass} /> @{contact.tiktokHandle}
                   <ArrowUpRight className="size-3.5 opacity-0 transition group-hover:opacity-100" />
                 </a>
               </li>

@@ -85,7 +85,8 @@ export function businessJsonLd(categories: CategoryWithCount[]) {
             url: absoluteUrl(`/catalogo/${category.slug}`),
           })),
         },
-        sameAs: [contact.instagramUrl],
+        // Redes del negocio: ayudan a Google a conectar la marca con la web.
+        sameAs: [contact.instagramUrl, contact.facebookUrl, contact.tiktokUrl],
       },
       {
         "@type": "WebSite",
