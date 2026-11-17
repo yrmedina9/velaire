@@ -1,5 +1,5 @@
+import type { Metadata } from "next";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { siteConfig } from "@/config/site";
 import {
   getCategories,
   getFeaturedProducts,
@@ -15,8 +15,14 @@ import { FeaturedProducts } from "@/modules/home/components/FeaturedProducts";
 import { Hero } from "@/modules/home/components/Hero";
 import { HowToOrder } from "@/modules/home/components/HowToOrder";
 import { InstagramGallery } from "@/modules/home/components/InstagramGallery";
+import { LocalSeoSection } from "@/modules/home/components/LocalSeoSection";
 import { Marquee } from "@/modules/home/components/Marquee";
 import { OccasionsSection } from "@/modules/home/components/OccasionsSection";
+import { businessJsonLd } from "@/modules/seo/seo";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default async function HomePage() {
   const [categories, featured, latest, products, shipping, care] = await Promise.all([
@@ -28,29 +34,10 @@ export default async function HomePage() {
     getCareGuide(),
   ]);
   const categoryNames = Object.fromEntries(categories.map((c) => [c.slug, c.shortName]));
-  const { contact } = siteConfig;
 
   return (
     <>
-      <JsonLd
-        data={{
-          "@context": "https://schema.org",
-          "@type": "Store",
-          name: siteConfig.name,
-          description: siteConfig.description,
-          url: siteConfig.url,
-          telephone: `+57${contact.phone}`,
-          image: `${siteConfig.url}/images/products/bouquet-jardin-pastel-1.webp`,
-          address: {
-            "@type": "PostalAddress",
-            addressLocality: contact.city,
-            addressRegion: contact.region,
-            addressCountry: "CO",
-          },
-          areaServed: "CO",
-          sameAs: [contact.instagramUrl],
-        }}
-      />
+      <JsonLd data={businessJsonLd(categories)} />
       <Hero productCount={products.length} />
       <Marquee />
       <CategoryShowcase categories={categories} />
@@ -60,6 +47,7 @@ export default async function HomePage() {
       <HowToOrder steps={shipping.steps} />
       <CareGuide guide={care} />
       <InstagramGallery products={latest} />
+      <LocalSeoSection />
       <CtaSection />
     </>
   );

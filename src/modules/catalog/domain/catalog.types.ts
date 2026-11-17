@@ -36,6 +36,16 @@ export interface Category {
   description: string;
   image: string;
   order: number;
+  /** Nombre genérico de sus productos para los títulos en Google (p. ej. "Ramo de flores en vela"). */
+  productNoun: string;
+  seo: {
+    title: string;
+    /** Línea bajo el nombre en el H1, con la búsqueda local. */
+    kicker: string;
+    description: string;
+    /** Párrafos visibles al final de la página de la categoría. */
+    intro: string[];
+  };
 }
 
 export interface CategoryWithCount extends Category {

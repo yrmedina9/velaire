@@ -6,7 +6,17 @@
     "tagline": "Flores que nunca se marchitan",
     "description": "Rosas, peonías y tulipanes en vela aromatizada, armados a mano en ramos, macetas y cajas. Elige tus colores y aroma.",
     "image": "/images/products/bouquet-rosa-dulce-1.webp",
-    "order": 1
+    "order": 1,
+    "productNoun": "Ramo de flores en vela",
+    "seo": {
+      "title": "Ramos y bouquets de flores en vela aromatizada en Neiva",
+      "kicker": "Ramos de flores en vela aromatizada · Neiva",
+      "description": "Ramos de flores aromatizados que nunca se marchitan: rosas, peonías y tulipanes en vela hechos a mano en Neiva, Huila. Personaliza colores y aroma. Envíos a toda Colombia.",
+      "intro": [
+        "Nuestros ramos de flores en vela son la alternativa a las flores naturales que dura para siempre: cada rosa, peonía o tulipán es una vela aromatizada moldeada a mano en nuestro taller de Neiva. Puedes conservarlos como decoración o encender las flores una a una.",
+        "Armamos bouquets en maceta, en caja y ramos envueltos en papel coreano, con flor de nube, mariposas doradas y tarjeta con tu mensaje. Son el regalo ideal para cumpleaños, aniversarios, Amor y Amistad o el Día de la Madre, con entrega a domicilio en Neiva y envíos a todo el Huila y Colombia."
+      ]
+    }
   },
   {
     "slug": "detalles",
@@ -15,7 +25,17 @@
     "tagline": "Listos para regalar",
     "description": "Cajitas de velas, peonías en caja e iniciales personalizadas con rosas y chocolates.",
     "image": "/images/products/inicial-rosas-chocolates-1.webp",
-    "order": 2
+    "order": 2,
+    "productNoun": "Regalo personalizado en vela",
+    "seo": {
+      "title": "Regalos personalizados y cajitas de velas en Neiva",
+      "kicker": "Regalos personalizados · Neiva",
+      "description": "Detalles para regalar en Neiva: iniciales con rosas en vela y chocolates, cajitas de velas aromatizadas y peonías en caja, listos para entregar. Envíos a toda Colombia.",
+      "intro": [
+        "¿Buscas un detalle diferente en Neiva? Nuestras cajitas e iniciales personalizadas llegan listas para regalar: rosas y peonías en vela aromatizada, chocolates, lazos de satín y tarjeta con tu mensaje.",
+        "Eliges la letra, los colores y el aroma, y nosotros lo hacemos a mano. Perfectos para sorprender en cumpleaños, aniversarios, Día de la Madre o como regalo empresarial."
+      ]
+    }
   },
   {
     "slug": "recordatorios",
@@ -24,7 +44,17 @@
     "tagline": "Para tus eventos",
     "description": "Velas para primeras comuniones, bautizos, baby shower, eventos empresariales y fiestas tradicionales del Huila.",
     "image": "/images/products/vela-bambuquera-2.webp",
-    "order": 3
+    "order": 3,
+    "productNoun": "Recordatorio en vela",
+    "seo": {
+      "title": "Recordatorios en vela para primera comunión, bautizo y eventos en Neiva",
+      "kicker": "Recordatorios en vela para eventos · Neiva",
+      "description": "Recordatorios en vela aromatizada para primera comunión, bautizo, baby shower, eventos empresariales y San Pedro en Neiva, Huila. Pedidos por cantidad y envíos a Colombia.",
+      "intro": [
+        "Hacemos recordatorios en vela por cantidad para que tus invitados se lleven un detalle que perfuma y decora: ángeles para primera comunión, Sagrada Familia para bautizos, arbolitos con tarjeta para empresas y baby shower, y nuestra bambuquera para las fiestas de San Pedro.",
+        "Escríbenos con la fecha de tu evento y el número de invitados, y te enviamos la cotización. Entregamos en Neiva y despachamos a todo el país."
+      ]
+    }
   },
   {
     "slug": "navidad",
@@ -33,7 +63,17 @@
     "tagline": "La magia de diciembre",
     "description": "Renos, arbolitos, pesebres y cajas de velitas de deseos para la noche más mágica del año.",
     "image": "/images/products/reno-navideno-1.webp",
-    "order": 4
+    "order": 4,
+    "productNoun": "Vela navideña",
+    "seo": {
+      "title": "Velas de Navidad y velitas del 7 de diciembre en Neiva",
+      "kicker": "Velas navideñas artesanales · Neiva",
+      "description": "Velas navideñas aromatizadas en Neiva: renos, arbolitos, pesebres y cajas de velitas de deseos para el Día de Velitas. Regalos y detalles empresariales de Navidad.",
+      "intro": [
+        "Celebra diciembre con velas navideñas hechas a mano en Neiva: renos, arbolitos de Navidad, muñecos de nieve y pesebres en vela aromatizada para decorar tu casa o regalar.",
+        "Para el Día de Velitas tenemos cajas de velitas con deseos (abundancia, salud, amor…) en varios diseños, ideales también como detalle empresarial de fin de año. Reserva con tiempo: es nuestra temporada más alta."
+      ]
+    }
   },
   {
     "slug": "decorativas",
@@ -42,6 +82,16 @@
     "tagline": "Aroma y estilo",
     "description": "Piezas aromatizadas para decorar tu espacio con un toque moderno.",
     "image": "/images/products/vela-burbuja-1.webp",
-    "order": 5
+    "order": 5,
+    "productNoun": "Vela decorativa aromática",
+    "seo": {
+      "title": "Velas decorativas y aromáticas artesanales en Neiva",
+      "kicker": "Velas aromáticas artesanales · Neiva",
+      "description": "Velas aromáticas y decorativas hechas a mano en Neiva, Huila: velas burbuja y esculturas en vela para decorar tu hogar o regalar. Envíos a toda Colombia.",
+      "intro": [
+        "Velas aromáticas artesanales para darle estilo y buen aroma a tu espacio: la vela burbuja, tendencia en decoración, y piezas escultóricas como nuestro ramillete de tulipanes.",
+        "Todas se elaboran a mano en Neiva y puedes pedirlas en el color que prefieras."
+      ]
+    }
   }
 ]

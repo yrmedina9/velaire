@@ -93,6 +93,34 @@ Se generan en el build con `next/og` y se convierten a JPEG (~80 KB) para que Wh
 Las fuentes TTF están en `src/assets/fonts/` (licencia SIL Open Font License). WhatsApp guarda en
 caché las vistas previas: si un enlace ya se compartió antes del cambio, puede tardar en actualizarse.
 
+## Posicionamiento en Google (SEO local)
+
+Lo que ya hace el sitio:
+
+- **Dominio canónico:** en producción todas las URLs (canónicas, sitemap, robots, imágenes) usan
+  `https://velaire-store.vercel.app`. Para un dominio propio, define `NEXT_PUBLIC_SITE_URL`.
+- **Títulos y descripciones** orientados a búsquedas locales ("ramos de flores en vela en Neiva",
+  "regalos personalizados en Neiva"…). Se editan en `src/config/site.ts` (inicio) y en
+  `src/data/catalog/categories.json` (`seo` y `productNoun` de cada categoría).
+- **Contenido local:** H1 del inicio, sección "Ramos de flores aromatizados en Neiva" y un texto
+  propio al final de cada categoría.
+- **Datos estructurados:** negocio local (`Store` en Neiva, Huila), sitio web y migas de pan
+  (`src/modules/seo/seo.ts`).
+- **Sitemap con imágenes** (`/sitemap.xml`) para Google Imágenes.
+
+Pasos fuera del código (son los que más pesan en búsquedas locales):
+
+1. **Google Search Console:** agrega la propiedad con prefijo de URL
+   `https://velaire-store.vercel.app/`, elige verificación por "Etiqueta HTML", copia el valor de
+   `content` en la variable `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` de Vercel, vuelve a desplegar,
+   verifica y envía `sitemap.xml`.
+2. **Perfil de Empresa de Google** (Google Maps): crea el perfil de Velaire en Neiva, con categoría
+  "Tienda de velas" (y "Tienda de regalos"), el sitio web, WhatsApp, fotos y horario. Si no hay
+  local abierto al público, configúralo como negocio con área de servicio (Neiva y Huila).
+3. **Reseñas:** pide a cada cliente una reseña en Google; es lo que más sube en el mapa local.
+4. **Enlaces:** pon el sitio en la bio de Instagram, en WhatsApp Business y en directorios locales,
+   siempre con el mismo nombre, ciudad y teléfono.
+
 ## Catálogo
 
 `src/data/catalog/products.json` contiene 40 productos tomados de las publicaciones de
@@ -119,4 +147,4 @@ incluye el subtotal automáticamente.
 - **Precios** de cada producto (hoy todos en `null`).
 - **Tiempos y costos de envío** y **tiempo de elaboración** (`src/data/content/shipping.json`): son estimados de referencia.
 - **Medios de pago** aceptados (`shipping.json → payment`).
-- **Dominio** final para `NEXT_PUBLIC_SITE_URL`.
+- **Dominio propio** (opcional) para `NEXT_PUBLIC_SITE_URL`.

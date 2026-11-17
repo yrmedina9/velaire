@@ -13,9 +13,10 @@ import { PaymentAndPackaging } from "@/modules/shipping/components/PaymentAndPac
 import { ShippingZones } from "@/modules/shipping/components/ShippingZones";
 
 export const metadata: Metadata = {
-  title: "Envíos y pagos",
+  title: "Envíos en Neiva y a toda Colombia",
   description:
-    "Envíos nacionales desde Neiva a toda Colombia. Conoce tiempos de entrega, elaboración, medios de pago y preguntas frecuentes.",
+    "Entregas a domicilio en Neiva y envíos nacionales de ramos de flores en vela y regalos. Conoce tiempos de entrega, elaboración, medios de pago y preguntas frecuentes.",
+  alternates: { canonical: "/envios" },
 };
 
 export default async function ShippingPage() {

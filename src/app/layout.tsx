@@ -35,26 +35,26 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   applicationName: siteConfig.name,
   title: {
-    default: `${siteConfig.name} · Bouquets de flores en vela y velas artesanales`,
-    template: `%s · ${siteConfig.name}`,
+    default: siteConfig.seo.homeTitle,
+    template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
-  keywords: [
-    "velas artesanales",
-    "bouquet de velas",
-    "ramos de flores en vela",
-    "velas aromatizadas",
-    "recordatorios",
-    "regalos Neiva",
-    "velas Huila",
-    "detalles personalizados",
-  ],
-  // La imagen la generan los archivos opengraph-image de cada segmento.
+  keywords: [...siteConfig.seo.keywords],
+  category: "shopping",
+  // Cada página declara su propia URL canónica (alternates.canonical).
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
+  },
+  verification: siteConfig.seo.googleVerification.length
+    ? { google: [...siteConfig.seo.googleVerification] }
+    : undefined,
   openGraph: {
     type: "website",
     locale: siteConfig.locale,
     siteName: siteConfig.name,
-    title: `${siteConfig.name} · ${siteConfig.tagline}`,
+    title: siteConfig.seo.homeTitle,
     description: siteConfig.description,
   },
   twitter: { card: "summary_large_image" },

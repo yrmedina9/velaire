@@ -22,15 +22,17 @@ export function Hero({ productCount }: { productCount: number }) {
       />
       <Container className="relative grid items-center gap-12 pt-8 pb-14 sm:gap-14 sm:pt-12 sm:pb-20 lg:grid-cols-[1.05fr_1fr] lg:pt-16 lg:pb-28">
         <div className="animate-fade-up">
-          <p className="surface inline-flex items-center gap-2 rounded-full px-3.5 py-1.5 text-[0.68rem] font-semibold tracking-[0.18em] text-clay-600 uppercase sm:text-xs">
-            <Sparkles className="size-3.5" /> Velas artesanales · {siteConfig.contact.city}, {siteConfig.contact.region}
-          </p>
-          <h1 className="mt-5 font-display text-[2.9rem] leading-[0.95] font-medium text-cacao-900 text-balance sm:mt-6 sm:text-7xl xl:text-[5.6rem]">
-            Flores que no se marchitan, <em className="text-clay-500">luz</em> que enamora
+          {/* El H1 describe el negocio para Google; el eslogan es decorativo */}
+          <h1 className="surface inline-flex items-center gap-2 rounded-2xl px-3.5 py-1.5 sm:rounded-full text-[0.68rem] font-semibold tracking-[0.14em] text-clay-600 uppercase sm:text-xs">
+            <Sparkles className="size-3.5 shrink-0" aria-hidden="true" />
+            Ramos de flores en vela aromatizada en {siteConfig.contact.city}, {siteConfig.contact.region}
           </h1>
+          <p className="mt-5 font-display text-[2.9rem] leading-[0.95] font-medium text-cacao-900 text-balance sm:mt-6 sm:text-7xl xl:text-[5.6rem]">
+            Flores que no se marchitan, <em className="text-clay-500">luz</em> que enamora
+          </p>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-cacao-700 text-pretty sm:mt-6 sm:text-lg">
-            Bouquets, ramos y detalles en vela aromatizada, hechos a mano para regalar amor y celebrar momentos
-            especiales. Personaliza colores, aromas y mensaje.
+            Ramos, bouquets y detalles en vela aromatizada hechos a mano en {siteConfig.contact.city}, para regalar
+            amor y celebrar momentos especiales. Personaliza colores, aromas y mensaje.
           </p>
           <div className="mt-7 flex flex-col gap-3 sm:mt-8 sm:flex-row">
             <ButtonLink href="/catalogo" size="lg" className="tap">

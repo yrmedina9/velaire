@@ -9,8 +9,9 @@ import { ContactChannels } from "@/modules/contact/components/ContactChannels";
 import { ContactForm } from "@/modules/contact/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contacto",
-  description: `Escríbenos por WhatsApp al ${siteConfig.contact.phoneDisplay} o en Instagram @${siteConfig.contact.instagramHandle}. Pedidos personalizados y envíos a toda Colombia.`,
+  title: "Contacto y pedidos por WhatsApp en Neiva",
+  description: `Pide tu ramo de flores en vela o regalo personalizado en Neiva por WhatsApp al ${siteConfig.contact.phoneDisplay} o en Instagram @${siteConfig.contact.instagramHandle}. Envíos a toda Colombia.`,
+  alternates: { canonical: "/contacto" },
 };
 
 export default async function ContactPage() {

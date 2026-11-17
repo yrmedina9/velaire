@@ -16,14 +16,16 @@ export async function generateMetadata({ params }: PageProps<"/catalogo/[categor
   const { categoria } = await params;
   const category = await getCategoryBySlug(categoria);
   if (!category) notFound();
+  const url = `/catalogo/${category.slug}`;
   return {
-    title: category.name,
-    description: category.description,
+    title: category.seo.title,
+    description: category.seo.description,
+    alternates: { canonical: url },
     // La imagen para redes la genera ./opengraph-image.tsx
     openGraph: {
-      title: `${category.name} · Velaire`,
-      description: category.description,
-      url: `/catalogo/${category.slug}`,
+      title: `${category.seo.title} | Velaire`,
+      description: category.seo.description,
+      url,
     },
   };
 }

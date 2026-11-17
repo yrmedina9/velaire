@@ -1,11 +1,28 @@
+/** Dominio oficial de producción. Los demás alias redirigen aquí. */
+const PRODUCTION_URL = "https://velaire-store.vercel.app";
+
 /**
- * URL pública del sitio. Prioridad: variable propia, dominio de
- * producción de Vercel, URL del despliegue en Vercel y, en local,
- * localhost. Las vistas previas de WhatsApp necesitan URLs absolutas.
+ * Códigos de Google Search Console (verificación por "Etiqueta HTML").
+ * No son secretos: Google los busca en el HTML público de la página.
+ * También se pueden agregar con NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+ * (separados por comas).
+ */
+const GOOGLE_VERIFICATION_CODES = ["3S7oH73ukbf65raB-dC2rNA_rlY8IXJRgNJiXL"];
+
+function googleVerificationCodes() {
+  const fromEnv = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?.split(",") ?? [];
+  return [...new Set([...GOOGLE_VERIFICATION_CODES, ...fromEnv].map((code) => code.trim()).filter(Boolean))];
+}
+
+/**
+ * URL pública del sitio. Prioridad: variable propia (dominio propio a
+ * futuro), dominio oficial en producción, URL del despliegue de
+ * vista previa en Vercel y, en local, localhost. Google y WhatsApp
+ * necesitan siempre la misma URL absoluta.
  */
 function resolveSiteUrl() {
   if (process.env.NEXT_PUBLIC_SITE_URL) return process.env.NEXT_PUBLIC_SITE_URL;
-  if (process.env.VERCEL_PROJECT_PRODUCTION_URL) return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`;
+  if (process.env.VERCEL_ENV === "production") return PRODUCTION_URL;
   if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
   return "http://localhost:3000";
 }
@@ -18,7 +35,7 @@ export const siteConfig = {
   name: "Velaire",
   tagline: "Velas artesanales",
   description:
-    "Bouquets y ramos de flores en vela, recordatorios y detalles personalizados hechos a mano en Neiva, Huila. Envíos a toda Colombia.",
+    "Ramos y bouquets de flores en vela aromatizada, hechos a mano en Neiva, Huila. Regalos personalizados para toda ocasión y envíos a toda Colombia.",
   url: resolveSiteUrl(),
   locale: "es_CO",
   contact: {
@@ -38,6 +55,23 @@ export const siteConfig = {
     "Recordatorios empresariales",
     "Velas de soya aromatizadas",
   ],
+  seo: {
+    /** Título de la página de inicio (lo que se ve en Google). */
+    homeTitle: "Ramos de flores en vela aromatizada en Neiva, Huila | Velaire",
+    keywords: [
+      "ramos de flores Neiva",
+      "ramos de flores aromatizados",
+      "bouquet de velas",
+      "flores en vela",
+      "rosas en vela",
+      "velas aromáticas Neiva",
+      "regalos personalizados Neiva",
+      "detalles para regalar Neiva",
+      "recordatorios en vela",
+      "velas artesanales Huila",
+    ],
+    googleVerification: googleVerificationCodes(),
+  },
 } as const;
 
 export type SiteConfig = typeof siteConfig;

@@ -4,8 +4,10 @@ import { Suspense } from "react";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
+import { JsonLd } from "@/components/seo/JsonLd";
 import {
   getCategories,
+  getCategoryBySlug,
   getOccasions,
   getProductBySlug,
   getProducts,
@@ -18,6 +20,7 @@ import { ProductGrid } from "@/modules/catalog/components/ProductGrid";
 import { ProductInfo } from "@/modules/catalog/components/ProductInfo";
 import { ProductSkeleton } from "@/modules/catalog/components/Skeletons";
 import { getCareGuide, getShippingInfo } from "@/modules/content/content.service";
+import { breadcrumbJsonLd, productSeoDescription, productSeoTitle } from "@/modules/seo/seo";
 
 type Params = PageProps<"/producto/[slug]">["params"];
 
@@ -30,15 +33,16 @@ export async function generateMetadata({ params }: PageProps<"/producto/[slug]">
   const { slug } = await params;
   const product = await getProductBySlug(slug);
   if (!product) notFound();
+  const category = await getCategoryBySlug(product.category);
+  const url = `/producto/${product.slug}`;
+  const title = productSeoTitle(product, category);
+  const description = productSeoDescription(product);
   // La imagen para redes la genera ./opengraph-image.tsx
   return {
-    title: product.name,
-    description: product.shortDescription,
-    openGraph: {
-      title: `${product.name} · Velaire`,
-      description: product.shortDescription,
-      url: `/producto/${product.slug}`,
-    },
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: { title: `${title} | Velaire`, description, url },
   };
 }
 
@@ -69,19 +73,19 @@ async function ProductContent({ params }: { params: Params }) {
   ]);
   const category = categories.find((c) => c.slug === product.category);
   const categoryNames = Object.fromEntries(categories.map((c) => [c.slug, c.shortName]));
+  const crumbs = [
+    { label: "Inicio", href: "/" },
+    { label: "Catálogo", href: "/catalogo" },
+    ...(category ? [{ label: category.shortName, href: `/catalogo/${category.slug}` }] : []),
+    { label: product.name, href: `/producto/${product.slug}` },
+  ];
 
   return (
     <>
+      <JsonLd data={breadcrumbJsonLd(crumbs.map((c) => ({ name: c.label, path: c.href })))} />
       <Container className="pb-14 md:pt-8 md:pb-24">
         <div className="hidden md:block">
-          <Breadcrumbs
-            items={[
-              { label: "Inicio", href: "/" },
-              { label: "Catálogo", href: "/catalogo" },
-              ...(category ? [{ label: category.shortName, href: `/catalogo/${category.slug}` }] : []),
-              { label: product.name },
-            ]}
-          />
+          <Breadcrumbs items={crumbs.map((c, i) => (i === crumbs.length - 1 ? { label: c.label } : c))} />
         </div>
         <div className="grid md:mt-8 lg:grid-cols-2 lg:gap-16">
           <ProductGallery images={product.images} name={product.name} />
