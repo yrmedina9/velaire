@@ -7,7 +7,7 @@ const PRODUCTION_URL = "https://velaire-store.vercel.app";
  * También se pueden agregar con NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
  * (separados por comas).
  */
-const GOOGLE_VERIFICATION_CODES = ["3S7oH73ukbf65raB-dC2rNA_rlY8IXJRgNJiXL"];
+const GOOGLE_VERIFICATION_CODES = ["XszvUC2Q7hEE5hiTzJ7aAxkVY9PfobCH2C2P-OXm3b4"];
 
 function googleVerificationCodes() {
   const fromEnv = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?.split(",") ?? [];
